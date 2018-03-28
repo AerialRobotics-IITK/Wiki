@@ -1,2 +1,3 @@
-# Meetings
-Contains all the material covered in the lectures
+# Aerial Robotics Wiki
+
+Refer to the Wiki above for detailed information regarding the project and assignments.
