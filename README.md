@@ -1,6 +1,6 @@
 # Aerial Robotics Wiki
 
-Refer to the Wiki above for detailed information regarding the project and assignments.
+**Wiki** detailed information regarding the project and assignments.
 
 ![alt text](https://avatars2.githubusercontent.com/u/34554855?s=400&u=e5ab93d70c12cd8e968e26ae33c44703f151b265&v=4 )
 * [Home](https://github.com/AerialRobotics-IITK/Wiki/wiki)
