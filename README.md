@@ -13,6 +13,7 @@
   * [Rotation of vector [3D]](https://github.com/AerialRobotics-IITK/Wiki/wiki/Rotation-of-vector-%5B3D%5D)
   * [Rotation matrix for UAV](https://github.com/AerialRobotics-IITK/Wiki/blob/master/AE321_EqMotion.pdf)
   * [Quaternion](https://github.com/AerialRobotics-IITK/Wiki/blob/master/Quaternion%20lecture.pdf)
+  * Quaternion easy explaination see quaternion folder
 * PX4
   * [Enable-manual-control-in-offboard-mode](https://github.com/AerialRobotics-IITK/Wiki/wiki/Enable-manual-control-in-offboard-mode-%5BPX4%5D)
 * How to use [aruco_ros](https://github.com/AerialRobotics-IITK/aruco_ros)
