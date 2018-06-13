@@ -33,3 +33,4 @@
   * [DCM Tutorial 1](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)
   * [DCM Tutorial 2](http://www.starlino.com/dcm_tutorial.html)
   * [AHRS Imu](http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)
+  * [MATLAB KALMAN FILTER](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
