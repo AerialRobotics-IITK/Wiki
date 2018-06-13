@@ -27,3 +27,9 @@
   * [Lectures](https://github.com/AerialRobotics-IITK/Wiki/wiki/Lecture-Slides)
   * [References](https://github.com/AerialRobotics-IITK/Wiki/wiki/References)
   * [Useful Repositories](https://github.com/AerialRobotics-IITK/Wiki/wiki/Useful-Repositories)
+ * Sensor fusion
+  * [Introduction to AI in robotics](https://classroom.udacity.com/courses/cs373)
+  * [How a kalman filter works](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
+  * [DCM Tutorial 1](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)
+  * [DCM Tutorial 2](http://www.starlino.com/dcm_tutorial.html)
+  * [AHRS Imu](http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)
