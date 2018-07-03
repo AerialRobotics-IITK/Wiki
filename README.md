@@ -16,6 +16,9 @@
   * Quaternion easy explaination see quaternion folder
 * PX4
   * [Enable-manual-control-in-offboard-mode](https://github.com/AerialRobotics-IITK/Wiki/wiki/Enable-manual-control-in-offboard-mode-%5BPX4%5D)
+* PID
+  * [PID explained](https://www.youtube.com/watch?v=4Y7zG48uHRo)
+  * [PID Theory](https://youtu.be/UR0hOmjaHp0?t=215)
 * How to use [aruco_ros](https://github.com/AerialRobotics-IITK/aruco_ros)
   * [Calibrate your camera](https://github.com/AerialRobotics-IITK/Wiki/wiki/Camera-Calibration) 
   * [Changes in launch files](https://github.com/AerialRobotics-IITK/Wiki/wiki/launch-files)
