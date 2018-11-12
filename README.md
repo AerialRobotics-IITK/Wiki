@@ -14,6 +14,8 @@
   * [Rotation matrix for UAV](https://github.com/AerialRobotics-IITK/Wiki/blob/master/AE321_EqMotion.pdf)
   * [Quaternion](https://github.com/AerialRobotics-IITK/Wiki/blob/master/Quaternion%20lecture.pdf)
   * Quaternion easy explaination see quaternion folder
+  * [Quaternion intitution 1](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
+  * [Quaternion intitution 2](https://www.youtube.com/watch?v=zjMuIxRvygQ)
 * PX4
   * [Enable-manual-control-in-offboard-mode](https://github.com/AerialRobotics-IITK/Wiki/wiki/Enable-manual-control-in-offboard-mode-%5BPX4%5D)
 * PID
