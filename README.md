@@ -2,7 +2,7 @@
 
 **Wiki** detailed information regarding the project and assignments.
 
-![alt text](https://avatars2.githubusercontent.com/u/34554855?s=400&u=e5ab93d70c12cd8e968e26ae33c44703f151b265&v=4 )
+![alt text](https://github.com/AerialRobotics-IITK/Wiki/blob/master/ARIITKLOGO.png?raw=true)
 * [Home](https://github.com/AerialRobotics-IITK/Wiki/wiki)
 * [Setup Your Computer](https://github.com/AerialRobotics-IITK/Wiki/wiki/Setup-Your-Computer)
   * [Ubuntu Install](https://github.com/AerialRobotics-IITK/Wiki/wiki/Ubuntu_install)
