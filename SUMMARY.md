@@ -25,6 +25,7 @@
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
   * [Quaternions](tutorials/theory/quaternions.md)
+* [Model Predictive Control](Model%20Predictive%20Control/README.md)
 
 ## ROS
 
