@@ -9,7 +9,7 @@ description: Setup of Quadrotor with Vicon tracking system.
   {% embed url="https://www.vicon.com/" %}
 
 
-![Alt text](vicon_setup.png?raw=true "Optional Title")
+![Alt text](./vicon_setup.png?raw=true "Optional Title")
 
 * Getting pose data on Onboard Processor using [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)  from Vicon PC
     
