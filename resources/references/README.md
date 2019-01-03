@@ -10,5 +10,3 @@ Here are links to the articles in this section:
 
 {% page-ref page="papers/" %}
 
-
-

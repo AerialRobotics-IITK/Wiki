@@ -4,9 +4,7 @@ description: PID Controls Explained
 
 # PID
 
-### A brief introduction:
+## A brief introduction:
 
-### Basics Explained:
-
-
+## Basics Explained:
 

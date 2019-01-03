@@ -13,5 +13,5 @@ sudo apt-get install ros-kinetic-mavros-extras
 
 For more information, check this link:
 
-{% embed url="https://dev.px4.io/en/robotics/" %}
+{% embed url="https://dev.px4.io/en/robotics/" caption="" %}
 

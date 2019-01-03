@@ -4,11 +4,11 @@ description: Instructions for configuring Pixhawk support.
 
 # PX4 Setup
 
-### Step 1: Install QGC
+## Step 1: Install QGC
 
 Download the QGroundControl package from the following link:
 
-{% embed url="https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2" %}
+{% embed url="https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2" caption="" %}
 
 Extract the downloaded archive by running the following in the terminal
 
@@ -22,13 +22,13 @@ cd qgroundcontrol
 ./qgroundcontrol-start.sh
 ```
 
-### Step 2: Install the Toolchain
+## Step 2: Install the Toolchain
 
 Follow the instructions here to install the PX4 toolchain:
 
-{% embed url="https://dev.px4.io/en/setup/dev\_env\_linux\_ubuntu.html" %}
+{% embed url="https://dev.px4.io/en/setup/dev\_env\_linux\_ubuntu.html" caption="" %}
 
-### Step 3: Building the software
+## Step 3: Building the software
 
 Run the following in the terminal:
 
@@ -50,5 +50,5 @@ make px4fmu-v2_default upload
 
 For a more detailed and extensive build, check this:
 
-{% embed url="https://dev.px4.io/en/setup/building\_px4.html" %}
+{% embed url="https://dev.px4.io/en/setup/building\_px4.html" caption="" %}
 

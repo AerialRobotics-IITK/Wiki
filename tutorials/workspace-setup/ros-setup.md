@@ -4,9 +4,9 @@ description: Instructions to install ROS.
 
 # ROS Setup
 
-Robot Operating System \(ROS\) is robotics middleware. Although it is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management. 
+Robot Operating System \(ROS\) is robotics middleware. Although it is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management.
 
-{% embed url="http://www.ros.org" %}
+{% embed url="http://www.ros.org" caption="" %}
 
 {% hint style="info" %}
 This installation will install ROS Kinetic on the system.
@@ -41,7 +41,7 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="zsh setup" %}
-```
+```text
 # setup sources.list
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -62,7 +62,6 @@ source ~/.zshrc
 
 # fulfill dependencies
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
-
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -71,9 +70,5 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 If the above install fails, follow the instructions given here:
 {% endhint %}
 
-{% embed url="http://wiki.ros.org/kinetic/Installation/Ubuntu​" %}
-
-
-
-
+{% embed url="http://wiki.ros.org/kinetic/Installation/Ubuntu​" caption="" %}
 

@@ -4,7 +4,7 @@
 
 For understanding about quaternions please see the documentation in the quaternions.pdf and the quaternions.md in this folder.
 
-## Sources <a id="sources"></a>
+## Sources  <a id="sources"></a>
 
 ​[Source Link](http://wiki.roblox.com/index.php?title=Quaternions_for_rotation#Quaternion_from_a_Rotation_Matrix)​
 
@@ -18,7 +18,7 @@ For understanding about quaternions please see the documentation in the quaterni
 
 ​[HardlyDifficult.com/Tutorials/Quaternions](https://hardlydifficult.com/Tutorials/Quaternions)​
 
-## Intro to Quaternion Rotations \(with Unity 2017\) <a id="intro-to-quaternion-rotations-with-unity-2017"></a>
+## Intro to Quaternion Rotations \(with Unity 2017\)  <a id="intro-to-quaternion-rotations-with-unity-2017"></a>
 
 ​[View on YouTube](https://youtu.be/kYOtk5a6_x4)​
 
@@ -59,15 +59,15 @@ Goal: This tutorial introduces working with rotations, with a focus on Quaternio
     * 3.8.3\) [Quaternion == Quaternion](https://gajena.gitbook.io/aerial-robotics/quaternion/quaternions#383-quaternion--quaternion)​
     * 3.8.4\) [Math for Quaternion Dot](https://gajena.gitbook.io/aerial-robotics/quaternion/quaternions#384-math-for-quaternion-dot)​
 
-### 1\) Euler Rotations <a id="1-euler-rotations"></a>
+### 1\) Euler Rotations  <a id="1-euler-rotations"></a>
 
-#### 1.1\) About Euler <a id="1-1-about-euler"></a>
+#### 1.1\) About Euler  <a id="1-1-about-euler"></a>
 
 When we think of rotations, we typically think in terms of 'Euler' \(pronounced oi-ler\). Euler rotations are degrees of rotation around each axis; e.g., \(0, 0, 30\) means "rotate the object by 30 degrees around the Z axis."
 
 In the Inspector, modifying a Transform's rotation is done in Euler. In code, you can either work with Quaternions directly, or use Euler \(or other representation\) and then convert it back to Quaternion for storage.
 
-#### 1.2\) Gimbal lock <a id="1-2-gimbal-lock"></a>
+#### 1.2\) Gimbal lock  <a id="1-2-gimbal-lock"></a>
 
 The main reason that Euler is not the primary way of storing and manipulating rotations in a game is because of issues which arise from "Gimbal lock".
 
@@ -83,7 +83,7 @@ Note that Euler can represent any possible rotation. Gimbal lock is only a conce
 
 For a lot more detail - see [Wikipedia's article on Gimbal Lock](https://en.wikipedia.org/wiki/Gimbal_lock) or [GuerrillaCG's video on Gimbal Lock](https://www.youtube.com/watch?v=zc8b2Jo7mno&feature=youtu.be&t=176).
 
-#### 1.3\) Working with Euler <a id="1-3-working-with-euler"></a>
+#### 1.3\) Working with Euler  <a id="1-3-working-with-euler"></a>
 
 Given a Quaternion, you can calculate the Euler value like so:
 
@@ -97,9 +97,9 @@ Euler rotations are stored as a Vector3. You can perform any of the operations y
 
 ```
 
-### 2\) Axis-Angle Rotations <a id="2-axis-angle-rotations"></a>
+### 2\) Axis-Angle Rotations  <a id="2-axis-angle-rotations"></a>
 
-#### 2.1\) About Axis-Angle <a id="2-1-about-axis-angle"></a>
+#### 2.1\) About Axis-Angle  <a id="2-1-about-axis-angle"></a>
 
 Another way of representing rotations is Axis-Angle. This approach defines both an axis and the angle defining how much to rotate around that axis.
 
@@ -116,7 +116,7 @@ The following example shows a more complex rotation where the axis is not aligne
 
 Axis-Angle and other rotation approaches, including Quaternions and Matrices, are not impacted by Gimbal Lock.
 
-#### 2.2\) Working with Axis-Angle <a id="2-2-working-with-axis-angle"></a>
+#### 2.2\) Working with Axis-Angle  <a id="2-2-working-with-axis-angle"></a>
 
 Given a Quaternion, you can calculate the Axis-Angle value like so:
 
@@ -130,15 +130,15 @@ You could modify the angle or even the axis itself. Then given an Axis-Angle val
 
 ```
 
-### 3\) Quaternion Rotations <a id="3-quaternion-rotations"></a>
+### 3\) Quaternion Rotations  <a id="3-quaternion-rotations"></a>
 
-#### 3.1\) About Quaternions <a id="3-1-about-quaternions"></a>
+#### 3.1\) About Quaternions  <a id="3-1-about-quaternions"></a>
 
 A Quaternion is an axis-angle representation scaled in a way which optimizes common calculations, such as combining multiple rotations and interpolating between different rotation values.
 
 The default rotation for an object known as 'identity' is \(0, 0, 0\) in Euler and \(0, 0, 0, 1\) in Quaternion. If you multiply a rotation by identity, the rotation does not change.
 
-#### 3.2\) Properties of a Quaternion <a id="3-2-properties-of-a-quaternion"></a>
+#### 3.2\) Properties of a Quaternion  <a id="3-2-properties-of-a-quaternion"></a>
 
 Quaternions are composed of 4 floats, like an Axis-Angle. The first three \(x, y, z\) are logically grouped into a vector component of the Quaternion and the last value \(w\) is a scalar component. Some of the math below shows how these parts may be considered separately.
 
@@ -152,7 +152,7 @@ Knowing the Quaternion rotations are normalized simplifies some of the math for 
 
 The performance Quaternions offer comes with a small cost in terms of storage. A rotation technically has 3 degrees of freedom, which means that it may be represented with 3 floats \(like an Euler\); however, a Quaternion requires 4 floats. This tradeoff has been deemed worthwhile by the industry for the performance when a game is running. If size matters, such as for network communication, quaternions may be compressed as well as an Euler could be.
 
-#### 3.3\) Creating Quaternions <a id="3-3-creating-quaternions"></a>
+#### 3.3\) Creating Quaternions  <a id="3-3-creating-quaternions"></a>
 
 **3.3.1\) Quaternion Constructors**
 
@@ -210,7 +210,7 @@ Here is the formula for Quaternion, given an axis-angle rotation. You don't need
 
 ```
 
-#### 3.4\) Interpolating Rotations <a id="3-4-interpolating-rotations"></a>
+#### 3.4\) Interpolating Rotations  <a id="3-4-interpolating-rotations"></a>
 
 **3.4.1\) Quaternion.Slerp**
 
@@ -273,7 +273,7 @@ In Unity, you should use the method above. However, for the interested, below is
 
 When a Lerp calculation is performed, the values need to be normalized so that the resulting Quaternion is normalized.
 
-#### 3.5\) Combining Rotations <a id="3-5-combining-rotations"></a>
+#### 3.5\) Combining Rotations  <a id="3-5-combining-rotations"></a>
 
 **3.5.1\) Quaternion \* Quaternion**
 
@@ -297,7 +297,7 @@ In Unity, you should use the method above. However, for the interested, below is
 
 ```
 
-#### 3.6\) Inverse Rotation <a id="3-6-inverse-rotation"></a>
+#### 3.6\) Inverse Rotation  <a id="3-6-inverse-rotation"></a>
 
 **3.6.1\) Quaternion.Inverse**
 
@@ -315,7 +315,7 @@ In Unity, you should use the method above. However, for the interested, below is
 
 ```
 
-#### 3.7\) Rotating Vectors <a id="3-7-rotating-vectors"></a>
+#### 3.7\) Rotating Vectors  <a id="3-7-rotating-vectors"></a>
 
 **3.7.1\) Quaternion \* Vector3 \(or Vector2\)**
 
@@ -341,7 +341,7 @@ In Unity, you should use the method above. However, for the interested, below is
 
 The approach above creates a Quaternion for the position simply to enable the multiplication operations required. It's possible to implement this algorithm without reusing the Quaternion data structure in this way.
 
-#### 3.8\) Comparing Rotations <a id="3-8-comparing-rotations"></a>
+#### 3.8\) Comparing Rotations  <a id="3-8-comparing-rotations"></a>
 
 **3.8.1\) Dot Product / Quaternion.Dot**
 
@@ -379,13 +379,11 @@ In Unity, you should use the method above. However, for the interested, below is
 
 ```
 
-## GG <a id="gg"></a>
+## GG  <a id="gg"></a>
 
 That's all for now. Questions, issues, or suggestions? Please use the [YouTube comments](https://youtu.be/kYOtk5a6_x4).
 
 Support on [Patreon](https://www.patreon.com/HardlyDifficult), with [Paypal](https://u.muxy.io/tip/HardlyDifficult), or by subscribing on [Twitch](https://www.twitch.tv/HardlyDifficult/subscribe) \(free with Amazon Prime\).
 
 ​[License](https://creativecommons.org/licenses/by/4.0/). Created live at [twitch.tv/HardlyDifficult](https://www.twitch.tv/HardlyDifficult) August 2017.
-
-
 

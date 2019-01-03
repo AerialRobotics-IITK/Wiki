@@ -1,7 +1,5 @@
 # aruco? launch\_files
 
-
-
 There are three files
 
 ```text

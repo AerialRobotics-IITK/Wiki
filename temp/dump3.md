@@ -20,7 +20,7 @@ static\_transform\_publisher is designed both as a command-line tool for manual 
 
 ​[Source: ODROID XU4 WIKI](https://wiki.odroid.com/odroid-xu4/odroid-xu4)​
 
-## **Components Required** <a id="components-required"></a>
+## **Components Required**  <a id="components-required"></a>
 
 * ODROID XU4
 * Lan Cable
@@ -30,7 +30,7 @@ static\_transform\_publisher is designed both as a command-line tool for manual 
 * PC
 * Monitor/TV with Hdmi Port \(Optional\)
 
-### Step-1 Software Setup <a id="step-1-software-setup"></a>
+### Step-1 Software Setup  <a id="step-1-software-setup"></a>
 
 The first step is to install an OS for your ODROID. Please note that few eMMCs and microSD cards available for ODROID comes with preloaded OS; in such a case this step may be skipped.\
 
@@ -67,17 +67,16 @@ The first step is to install an OS for your ODROID. Please note that few eMMCs a
 
     `arp -a | grep 00:1e:06`\
 
-     The first address will be the IP address of your ODROID for the particular network.\
+    The first address will be the IP address of your ODROID for the particular network.\
 
-     **LOGIN via SSH**\
+    **LOGIN via SSH**\
 
-     Type ssh odroid@xxx.xxx.xxx.xxx ; where xxx.xxx.xxx.xxx is the IP address obtained above.\
+    Type ssh odroid@xxx.xxx.xxx.xxx ; where xxx.xxx.xxx.xxx is the IP address obtained above.\
 
-     It would prompt for a password; **odroid** is the default password.\
+    It would prompt for a password; **odroid** is the default password.\
 
-     **Congratulations!** ODROID terminal is accessed.
+    **Congratulations!** ODROID terminal is accessed.
 
-[  
-](https://gajena.gitbook.io/aerial-robotics/temp/references)  
-
+[    
+](https://gajena.gitbook.io/aerial-robotics/temp/references)
 

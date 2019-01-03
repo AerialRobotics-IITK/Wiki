@@ -2,8 +2,6 @@
 
 ### transformation\[tf\]-remapping
 
-
-
 * old: contains the name of tf that needs to be remapped
 * new: new name of tf
 
@@ -11,7 +9,7 @@
   >
   > \`\`\`shell
 
-   \[{old: /imu, new: /base\_link}\]
+  \[{old: /imu, new: /base\_link}\]
 
 &lt;/launch&gt;
 
@@ -27,7 +25,7 @@
 
 ### PX4 Toolchain Installation
 
-## Basic Toolchain <a id="basic-toolchain"></a>
+## Basic Toolchain  <a id="basic-toolchain"></a>
 
 > Do **NOT** use the convenience Bash scripts provided on the website
 
@@ -35,7 +33,7 @@ Follow the instructions at [PX4 Development Guide](https://dev.px4.io/en/setup/d
 
 We'll be using **NuttX** based hardware, so **AVOID** Snapdragon Flight, Raspberry Pi and Parrot.
 
-### Steps to follow: <a id="steps-to-follow"></a>
+### Steps to follow:  <a id="steps-to-follow"></a>
 
 * Permission Setup
 * Remove the modemmanager
@@ -46,14 +44,12 @@ We'll be using **NuttX** based hardware, so **AVOID** Snapdragon Flight, Raspber
 
 We'll prefer **Qt Creator** as our IDE.
 
-## mavros <a id="mavros"></a>
+## mavros  <a id="mavros"></a>
 
-Get mavros source from their GitHub repository [here](https://github.com/mavlink/mavros). Fork the repository and refer to its [README](https://github.com/mavlink/mavros/blob/master/mavros/README.md) for installation instructions.[  
+Get mavros source from their GitHub repository [here](https://github.com/mavlink/mavros). Fork the repository and refer to its [README](https://github.com/mavlink/mavros/blob/master/mavros/README.md) for installation instructions.[    
 ](https://gajena.gitbook.io/aerial-robotics/temp/home)
 
 ### how the simulation works with SITL
-
-
 
 * `Gazebo-->Plugin-->MAVLink-->SITL`
 * Installation: follow toolchain setup
@@ -73,7 +69,7 @@ Get mavros source from their GitHub repository [here](https://github.com/mavlink
 
   \[init\] task name: px4
 
-\| _**/ / / \| \| \|**_**/ / V / / /\| \| \|** / / / /_\| \| \| \| / /^ \_\__ \| \_\| \/ \/ \|\_/
+\| _**/ / / \| \| \|**_**/ / V / / /\| \| \|** / / / /_\| \| \| \| / /^ \_\_ _\| \_\| \/ \/ \|\_/
 
 px4 starting.
 
@@ -83,7 +79,6 @@ pxh&gt;
 
 > type help if you want to know more
 
-[  
-](https://gajena.gitbook.io/aerial-robotics/temp/enable-manual-control-in-offboard-mode-px4)  
-
+[    
+](https://gajena.gitbook.io/aerial-robotics/temp/enable-manual-control-in-offboard-mode-px4)
 

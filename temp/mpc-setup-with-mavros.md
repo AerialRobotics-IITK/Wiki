@@ -1,28 +1,28 @@
 # MPC setup with mavros
 
-### Basic Installation <a id="basic-installation"></a>
+## Basic Installation  <a id="basic-installation"></a>
 
-#### MPC Package <a id="mpc-package"></a>
+### MPC Package  <a id="mpc-package"></a>
 
 Clone and install required dependencies : [ethz-asl/mav\_control\_rw](https://github.com/ethz-asl/mav_control_rw)​
 
-#### Mavros <a id="mavros"></a>
+### Mavros  <a id="mavros"></a>
 
 Clone [ethz-asl/mavros](https://github.com/ethz-asl/mavros)​
 
-#### Firmware <a id="firmware"></a>
+### Firmware  <a id="firmware"></a>
 
 Clone [ethz-asl/ethzasl\_mav\_px4](https://github.com/ethz-asl/ethzasl_mav_px4)​
 
-#### RotorS <a id="rotors"></a>
+### RotorS  <a id="rotors"></a>
 
 Clone [ethz-asl/rotors\_simulator](https://github.com/ethz-asl/rotors_simulator)​
 
-#### System Identification <a id="system-identification"></a>
+### System Identification  <a id="system-identification"></a>
 
 Clone [ethz-asl/mav\_system\_identification](https://github.com/ethz-asl/mav_system_identification) and install `matlab_rosbag`
 
-### Write a Launch file <a id="write-a-launch-file"></a>
+## Write a Launch file  <a id="write-a-launch-file"></a>
 
 Create a launch file for launching the model predictive controller along with mavros. Say example.launch
 
@@ -36,7 +36,7 @@ Where `px4_config.yaml` is the file with modified URL as below
 
 ```
 
-### System Identification with RotorS Simulator <a id="system-identification-with-rotors-simulator"></a>
+## System Identification with RotorS Simulator  <a id="system-identification-with-rotors-simulator"></a>
 
 * Connect a joystick and use [Joy](http://wiki.ros.org/joy) package.
 * Run the following command in terminal for launching joy node and remapping it to the `iris/rc` topic
@@ -68,7 +68,7 @@ Where `px4_config.yaml` is the file with modified URL as below
 * Record the `/iris/command/roll_pitch_yawrate_thrust` & `/iris/imu` topics using rosbag.
 * Refer [ethz-asl/mav\_system\_identification](https://github.com/ethz-asl/mav_system_identification) & [mav\_dji\_ros\_interface wiki](https://github.com/ethz-asl/mav_dji_ros_interface/wiki/Dynamic-System-Identification-%28via-VirtualRC%29) for using the recorded data in matlab and running the matlab plots for system model parameters.
 
-### Update the new parameters <a id="update-the-new-parameters"></a>
+## Update the new parameters  <a id="update-the-new-parameters"></a>
 
 * MPC yaml file for iris \(example \`mav\_linear\_mpc/resources/linear\_mpc\_iris.yaml\)
 
@@ -86,7 +86,7 @@ Where `px4_config.yaml` is the file with modified URL as below
 
   **==================================================================================================================**
 
-### Controller Parameters: <a id="controller-parameters"></a>
+## Controller Parameters:  <a id="controller-parameters"></a>
 
 mass: 1.52 roll\_time\_constant: 0.1847 pitch\_time\_constant: 0.175 roll\_gain: 1.017 pitch\_gain: 0.789 drag\_coefficients: \[ 0.010000 , 0.010000, 0.0000\]
 
@@ -114,7 +114,7 @@ sampling\_time: 0.01 \#IMPORTANT: set this equal to the rate of odometry msg pre
 
 ```
 
-### Show Time!! <a id="show-time"></a>
+## Show Time!!  <a id="show-time"></a>
 
 * Run the following commands on terminal
 
@@ -131,7 +131,6 @@ sampling\_time: 0.01 \#IMPORTANT: set this equal to the rate of odometry msg pre
 * Start `Q ground control` and put the quad in offboard mode
 * Increase the odometry topic rates in `mavlink_main.cpp` if data lags.
 
-[  
-](https://gajena.gitbook.io/aerial-robotics/temp/setup-your-computer)  
-
+[    
+](https://gajena.gitbook.io/aerial-robotics/temp/setup-your-computer)
 

@@ -1,7 +1,5 @@
 # dump1
 
-
-
 * ​[Home](https://github.com/AerialRobotics-IITK/Wiki/wiki)​
 * ​[Setup Your Computer](https://github.com/AerialRobotics-IITK/Wiki/wiki/Setup-Your-Computer)​
   * ​[Ubuntu Install](https://github.com/AerialRobotics-IITK/Wiki/wiki/Ubuntu_install)​

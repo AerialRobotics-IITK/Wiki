@@ -12,6 +12,7 @@
   * [Algos for path planning](temp/algos-for-path-planning.md)
   * [MPC setup with mavros](temp/mpc-setup-with-mavros.md)
   * [aruco? launch\_files](temp/aruco-launch_files.md)
+* [Odometry from pose data](odometry-from-pose-data.md)
 
 ## Tutorials
 
@@ -25,13 +26,15 @@
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
   * [Quaternions](tutorials/theory/quaternions.md)
-* [Model Predictive Control](Model%20Predictive%20Control/README.md)
+* [Model Predictive Control](tutorials/model-predictive-control/README.md)
+  * [Setup with Vicon](tutorials/model-predictive-control/setup-with-vicon.md)
 
 ## ROS
 
 * [Package Installation](ros/package-installation/README.md)
   * [MAVROS](ros/package-installation/mavros.md)
 * [Tutorials](ros/tutorials.md)
+* [Model Predictive Control](ros/model-predictive-control.md)
 
 ## Resources
 

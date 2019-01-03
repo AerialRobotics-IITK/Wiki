@@ -1,12 +1,10 @@
 # Algos for path planning
 
-
-
 * Grassfire Algorithm
 * Dijkstra Algorithm
 * A\* Alogrithm
 
-### Grassfire Algorithm <a id="grassfire-algorithm"></a>
+### Grassfire Algorithm  <a id="grassfire-algorithm"></a>
 
 ​![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/Grassfire1.png) ![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/Grassfire2.png)​
 
@@ -14,7 +12,7 @@ The destination cell is marked as 0 and the adjacent cells are marked in the inc
 
 Computation Complexity increases linearly with number of cells. For 2D grid 100 X 100 it is 10^4 For 2D grid 1000 X 1000 it is 10^6
 
-### Dijkstra Algorithm <a id="dijkstra-algorithm"></a>
+### Dijkstra Algorithm  <a id="dijkstra-algorithm"></a>
 
 ![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/Dijkastra1.png)
 
@@ -22,7 +20,7 @@ Start and Destination nodes along with many intermediate nodes like B,C,D are co
 
 Computation Complexity increses quadratically with the number of nodes.
 
-### A\* Algorithm <a id="a-algorithm"></a>
+### A\* Algorithm  <a id="a-algorithm"></a>
 
 ![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/A*1.png)![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/A*2.png)
 
@@ -30,15 +28,15 @@ It introduces the idea of heuristic destination . It implies the concept that th
 
 Some common Heuristic Functions are Euclidean distance and Manhattan Distance. We proceed to neighboring node closest to the destination and then update the neighbors of the node .
 
-## Path Planning in Configuration Space <a id="path-planning-in-configuration-space"></a>
+## Path Planning in Configuration Space  <a id="path-planning-in-configuration-space"></a>
 
-### Configuration Space <a id="configuration-space"></a>
+### Configuration Space  <a id="configuration-space"></a>
 
 ![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/ConfigurationSpace1.png)
 
 It is the steerable space of the robot . This figure shows the tx, ty configurations that the robot cannot attain because of the obstacle. The dimensions and shape of the configuration space obstacle are obtained by considering both the obstacle and the shape of the robot. The configuration space obstacle is defined by what's known as the Minkowski sum of the obstacle and the robot shape. The configuration of the robot corresponds to a point in the configuration space. And the dark areas correspond to configurations that the robot cannot attain.
 
-### Visibility Graph <a id="visibility-graph"></a>
+### Visibility Graph  <a id="visibility-graph"></a>
 
 ![](https://github.com/AerialRobotics-IITK/Wiki/blob/master/Path%20Planning%20Algorithms/Visibility1.png)![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/visibliity.png)![](https://github.com/AerialRobotics-IITK/Wiki/blob/master/Path%20Planning%20Algorithms/visiblilty2.png)
 
@@ -46,7 +44,7 @@ We draw an edge between any two vertices that can be connected by a straight lin
 
 The nice thing about this is that these shapes are convex, which means that the robot can safely move in a straight line between any two points in each of the cells. As we said earlier we can form a graph where the nodes are these trapezoidal regions of free space and the edges indicate which of these regions are adjacent to each other. Path planning is then carried out by finding out which cell contains the start location and which the goal.And then planning a path through the graph between these two nodes.
 
-## Probablistic Road Map <a id="probablistic-road-map"></a>
+## Probablistic Road Map  <a id="probablistic-road-map"></a>
 
 ![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/Visibility2.png)![](https://raw.githubusercontent.com/AerialRobotics-IITK/Wiki/master/Path%20Planning%20Algorithms/Probablistic.png)
 
@@ -58,7 +56,7 @@ In this figure, the solid green lines correspond to new links that are added, wh
 
 > Problem with Probablistic Road Map A complete path planning algorithm would find a path if one existed, and report failure if it didn't. With the PRM procedure, it is possible to have a situation where the algorithm would fail to find a path even when one exists. If the sampling procedure fails to generate an appropriate set of samples. For example, the situation shown in this figure where there is a path but it involves finding a route through this small passageway. In order to find this route, a sampling algorithm would have to randomly generate samples in that narrow area.
 
-### Rapidly Exploring Random Tree \(RRT\) <a id="rapidly-exploring-random-tree-rrt"></a>
+### Rapidly Exploring Random Tree \(RRT\)  <a id="rapidly-exploring-random-tree-rrt"></a>
 
 The RRT procedure proceeds by constructing a special kind of graph called a tree, where every node is connected to a single parent and the tree is rooted at a given starting location. The following animation shows how the algorithm evolves to construct a tree in a two-dimensional configuration space containing obstacles.
 
@@ -72,13 +70,12 @@ Note that if you succeed in finding such a bridge, you can claim success since i
 
 In practice, the RRT Method is very effective at forging paths in high-dimensional configuration spaces. Another important feature of the RRT approach is it can be used on systems that have dynamic constraints, which limit how they can move.
 
-## RRT vs RRT\* <a id="rrt-vs-rrt"></a>
+## RRT vs RRT\*  <a id="rrt-vs-rrt"></a>
 
 ![](https://imageresize.org/view/2519db1b-0de3-44bb-9c40-20be9db46888)
 
 > References [http://paper.ijcsns.org/07\_book/201610/20161004.pdf](http://paper.ijcsns.org/07_book/201610/20161004.pdf) ![](https://imageresize.org/view/2e1caa2d-9f1b-403d-9838-cf12acef7335)​
 
-[  
-](https://gajena.gitbook.io/aerial-robotics/temp/lecture-slides)  
-
+[    
+](https://gajena.gitbook.io/aerial-robotics/temp/lecture-slides)
 

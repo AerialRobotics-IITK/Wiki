@@ -4,11 +4,11 @@ description: Links to a few useful GitHub repositories.
 
 # Useful Repositories
 
-### MultiRotor
+## MultiRotor
 
-{% embed url="https://github.com/multirotor-iitk/Summer-17" %}
+{% embed url="https://github.com/multirotor-iitk/Summer-17" caption="" %}
 
-### Simulation
+## Simulation
 
-{% embed url="https://github.com/AerialRobotics-IITK/gazebo\_simulation" %}
+{% embed url="https://github.com/AerialRobotics-IITK/gazebo\_simulation" caption="" %}
 

@@ -1,7 +1,6 @@
 # Workspace Setup
 
-Here are the articles in this section:  
-
+Here are the articles in this section:
 
 {% page-ref page="installing-ubuntu.md" %}
 
@@ -10,6 +9,4 @@ Here are the articles in this section:
 {% page-ref page="ros-setup.md" %}
 
 {% page-ref page="px4-setup.md" %}
-
-
 
