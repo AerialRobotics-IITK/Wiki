@@ -1,7 +1,3 @@
----
-description: Instructions for further setup.
----
-
 # Basic Linux Setup
 
 ### Update Ubuntu

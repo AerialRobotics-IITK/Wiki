@@ -1,7 +1,3 @@
----
-description: Links to a few useful GitHub repositories.
----
-
 # Useful Repositories
 
 ### MultiRotor

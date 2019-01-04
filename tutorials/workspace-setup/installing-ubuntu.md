@@ -1,7 +1,3 @@
----
-description: Instructions for setting up Ubuntu.
----
-
 # Installing Ubuntu
 
 ### Step 1: Download the .iso file

@@ -1,7 +1,3 @@
----
-description: Instructions to install ROS.
----
-
 # ROS Setup
 
 Robot Operating System \(ROS\) is robotics middleware. Although it is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management. 

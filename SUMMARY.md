@@ -20,17 +20,20 @@
   * [Basic Linux Setup](tutorials/workspace-setup/untitled.md)
   * [ROS Setup](tutorials/workspace-setup/ros-setup.md)
   * [PX4 Setup](tutorials/workspace-setup/px4-setup.md)
+  * [PX4 Toolchain Setup](tutorials/workspace-setup/px4-toolchain-setup.md)
 * [Theory](tutorials/theory/README.md)
   * [PID](tutorials/theory/pid/README.md)
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
   * [Quaternions](tutorials/theory/quaternions.md)
+  * [Rotations](tutorials/theory/rotations.md)
 
 ## ROS
 
 * [Package Installation](ros/package-installation/README.md)
   * [MAVROS](ros/package-installation/mavros.md)
-* [Tutorials](ros/tutorials.md)
+* [Tutorials](ros/tutorials/README.md)
+  * [MPC Setup with MAVROS](ros/tutorials/mpc-setup-with-mavros.md)
 
 ## Resources
 

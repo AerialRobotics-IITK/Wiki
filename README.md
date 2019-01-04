@@ -1,7 +1,3 @@
----
-description: 'Detailed information about our team''s projects, lectures and tutorials.'
----
-
 # Introduction
 
 Here are the articles in this book:
