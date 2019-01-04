@@ -15,3 +15,8 @@ For more information, check this link:
 
 {% embed url="https://dev.px4.io/en/robotics/" caption="" %}
 
+## mavros  <a id="mavros"></a>
+
+Get mavros source from their GitHub repository [here](https://github.com/mavlink/mavros). Fork the repository and refer to its [README](https://github.com/mavlink/mavros/blob/master/mavros/README.md) for installation instructions.[    
+](https://gajena.gitbook.io/aerial-robotics/temp/home)
+

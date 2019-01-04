@@ -1,4 +1,6 @@
-# Algos for path planning
+# Path Planning
+
+
 
 * Grassfire Algorithm
 * Dijkstra Algorithm

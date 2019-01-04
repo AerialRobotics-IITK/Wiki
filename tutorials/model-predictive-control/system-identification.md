@@ -8,7 +8,7 @@ description: Contains methods for system identification of Quadrotor
 
 1. Firmware For Pixhawk Autopilot
 
-{% page-ref page="../workspace-setup/px4-setup.md" %}
+{% page-ref page="../workspace-setup/px4-setup/" %}
 
 {% hint style="warning" %}
 clone this repository : 

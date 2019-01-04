@@ -26,7 +26,7 @@ cd qgroundcontrol
 
 Follow the instructions here to install the PX4 toolchain:
 
-{% embed url="https://dev.px4.io/en/setup/dev\_env\_linux\_ubuntu.html" caption="" %}
+{% page-ref page="px4-toolchain-setup.md" %}
 
 ## Step 3: Building the software
 

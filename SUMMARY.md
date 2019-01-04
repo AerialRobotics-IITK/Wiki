@@ -1,30 +1,24 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [temp](temp/README.md)
-  * [Spruce up your space](temp/spruce-up-your-space.md)
-  * [dump1](temp/dump1.md)
-  * [dump2](temp/dump2.md)
-  * [dump3](temp/dump3.md)
-  * [dump4](temp/dump4.md)
-  * [dump 5](temp/dump-5.md)
-  * [Algos for path planning](temp/algos-for-path-planning.md)
-  * [MPC setup with mavros](temp/mpc-setup-with-mavros.md)
-  * [aruco? launch\_files](temp/aruco-launch_files.md)
 
 ## Tutorials
 
 * [Workspace Setup](tutorials/workspace-setup/README.md)
   * [Installing Ubuntu](tutorials/workspace-setup/installing-ubuntu.md)
   * [Basic Linux Setup](tutorials/workspace-setup/untitled.md)
+  * [Spruce up your space](tutorials/workspace-setup/spruce-up-your-space.md)
   * [ROS Setup](tutorials/workspace-setup/ros-setup.md)
-  * [PX4 Setup](tutorials/workspace-setup/px4-setup.md)
+  * [PX4 Setup](tutorials/workspace-setup/px4-setup/README.md)
+    * [PX4 Toolchain Setup](tutorials/workspace-setup/px4-setup/px4-toolchain-setup.md)
 * [Theory](tutorials/theory/README.md)
   * [PID](tutorials/theory/pid/README.md)
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
-  * [Quaternions](tutorials/theory/quaternions.md)
-* [Rotations](tutorials/rotations.md)
+  * [Quaternions](tutorials/theory/quaternions/README.md)
+    * [dump2](tutorials/theory/quaternions/dump2.md)
+  * [Rotations](tutorials/theory/rotations.md)
+  * [Path Planning](tutorials/theory/path-planning.md)
 * [Model Predictive Control](tutorials/model-predictive-control/README.md)
   * [References](tutorials/model-predictive-control/mpc.md)
   * [Model Predictive Controls with ROS](tutorials/model-predictive-control/model-predictive-controls-with-ros.md)
@@ -35,12 +29,21 @@
   * [Odometry from pose data](tutorials/model-predictive-control/odometry-from-pose-data.md)
   * [System Identification](tutorials/model-predictive-control/system-identification.md)
 * [Odroid XU4 Setup](tutorials/odroid-xu4-setup.md)
+* [Reference wiki links](dump1.md)
+* [MPC setup with mavros](mpc-setup-with-mavros.md)
 
 ## ROS
 
 * [Package Installation](ros/package-installation/README.md)
   * [MAVROS](ros/package-installation/mavros.md)
-* [Tutorials](ros/tutorials.md)
+  * [package list](ros/package-installation/package-list.md)
+* [Tutorials](ros/tutorials/README.md)
+  * [Camera Calibration](ros/tutorials/camera-calibration.md)
+  * [Enable offboard mode in PX4](ros/tutorials/enable-offboard-mode-in-px4.md)
+  * [SITL](ros/tutorials/sitl.md)
+  * [transformation remapping](ros/tutorials/transformation-remapping.md)
+  * [publish static transforms](ros/tutorials/dump3/README.md)
+    * [using aruco\_ros](ros/tutorials/dump3/using-aruco_ros.md)
 
 ## Resources
 

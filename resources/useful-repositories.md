@@ -1,5 +1,5 @@
 ---
-description: Links to a few useful GitHub repositories.
+description: Links to some insightful GitHub repositories.
 ---
 
 # Useful Repositories

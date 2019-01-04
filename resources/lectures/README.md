@@ -1,8 +1,10 @@
 ---
-description: Links to all the lectures.
+description: Links to all lectures.
 ---
 
 # Lectures
 
-Here are the links to all the lectures:
+{% file src="../../.gitbook/assets/ae321\_eqmotion.pdf" caption="Flight Mechanics" %}
+
+{% file src="../../.gitbook/assets/quaternion-lecture.pdf" caption="Quaternions" %}
 

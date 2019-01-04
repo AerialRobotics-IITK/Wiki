@@ -1,3 +1,7 @@
+---
+description: A detailed guide to using MPC with drones.
+---
+
 # Model Predictive Control
 
 {% page-ref page="mpc.md" %}
