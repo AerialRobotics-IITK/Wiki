@@ -42,8 +42,8 @@
   * [Enable offboard mode in PX4](ros/tutorials/enable-offboard-mode-in-px4.md)
   * [SITL](ros/tutorials/sitl.md)
   * [transformation remapping](ros/tutorials/transformation-remapping.md)
-  * [publish static transforms](ros/tutorials/dump3/README.md)
-    * [using aruco\_ros](ros/tutorials/dump3/using-aruco_ros.md)
+  * [publish static transforms](ros/tutorials/dump3.md)
+  * [using aruco\_ros](ros/tutorials/using-aruco_ros.md)
 
 ## Resources
 
