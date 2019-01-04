@@ -11,7 +11,6 @@
   * [Algos for path planning](temp/algos-for-path-planning.md)
   * [MPC setup with mavros](temp/mpc-setup-with-mavros.md)
   * [aruco? launch\_files](temp/aruco-launch_files.md)
-* [Odometry from pose data](odometry-from-pose-data.md)
 
 ## Tutorials
 
@@ -25,14 +24,17 @@
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
   * [Quaternions](tutorials/theory/quaternions.md)
+* [Rotations](tutorials/rotations.md)
 * [Model Predictive Control](tutorials/model-predictive-control/README.md)
-  * [Refrences](tutorials/model-predictive-control/mpc.md)
+  * [References](tutorials/model-predictive-control/mpc.md)
   * [Model Predictive Controls with ROS](tutorials/model-predictive-control/model-predictive-controls-with-ros.md)
   * [Running MPC](tutorials/model-predictive-control/running-mpc/README.md)
     * [MPC with Rotors](tutorials/model-predictive-control/running-mpc/mpc-with-rotors.md)
     * [MPC with PX4 Sim](tutorials/model-predictive-control/running-mpc/mpc-with-px4-sim.md)
   * [Setup with Vicon](tutorials/model-predictive-control/setup-with-vicon.md)
+  * [Odometry from pose data](tutorials/model-predictive-control/odometry-from-pose-data.md)
   * [System Identification](tutorials/model-predictive-control/system-identification.md)
+* [Odroid XU4 Setup](tutorials/odroid-xu4-setup.md)
 
 ## ROS
 

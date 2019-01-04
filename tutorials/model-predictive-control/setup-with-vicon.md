@@ -47,7 +47,7 @@ Alignment is compulsory to avoid problem with velocity and orientation of robot.
 
 ## Odometry from Pose data
 
-{% page-ref page="../../odometry-from-pose-data.md" %}
+{% page-ref page="odometry-from-pose-data.md" %}
 
 
 
