@@ -8,3 +8,5 @@ description: Links to all lectures.
 
 {% file src="../../.gitbook/assets/quaternion-lecture.pdf" caption="Quaternions" %}
 
+
+

@@ -8,7 +8,7 @@ description: Contains methods for system identification of Quadrotor
 
 1. Firmware For Pixhawk Autopilot
 
-{% page-ref page="../workspace-setup/px4-setup/" %}
+{% page-ref page="../tutorials/workspace-setup/px4-setup/" %}
 
 {% hint style="warning" %}
 clone this repository : 
@@ -26,5 +26,5 @@ git clone https://github.com/ethz-asl/mavros
 
 
 
-![Process for system identification](../../.gitbook/assets/untitled-presentation.png)
+![Process for system identification](../.gitbook/assets/untitled-presentation.png)
 

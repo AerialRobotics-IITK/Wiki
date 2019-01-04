@@ -19,18 +19,23 @@
     * [dump2](tutorials/theory/quaternions/dump2.md)
   * [Rotations](tutorials/theory/rotations.md)
   * [Path Planning](tutorials/theory/path-planning.md)
-* [Model Predictive Control](tutorials/model-predictive-control/README.md)
-  * [References](tutorials/model-predictive-control/mpc.md)
-  * [Model Predictive Controls with ROS](tutorials/model-predictive-control/model-predictive-controls-with-ros.md)
-  * [Running MPC](tutorials/model-predictive-control/running-mpc/README.md)
-    * [MPC with Rotors](tutorials/model-predictive-control/running-mpc/mpc-with-rotors.md)
-    * [MPC with PX4 Sim](tutorials/model-predictive-control/running-mpc/mpc-with-px4-sim.md)
-  * [Setup with Vicon](tutorials/model-predictive-control/setup-with-vicon.md)
-  * [Odometry from pose data](tutorials/model-predictive-control/odometry-from-pose-data.md)
-  * [System Identification](tutorials/model-predictive-control/system-identification.md)
 * [Odroid XU4 Setup](tutorials/odroid-xu4-setup.md)
+* [Untitled](tutorials/untitled.md)
+* [Untitled](tutorials/untitled-1.md)
 * [Reference wiki links](dump1.md)
 * [MPC setup with mavros](mpc-setup-with-mavros.md)
+
+## MPC
+
+* [Model Predictive Control](mpc/model-predictive-control.md)
+* [References](mpc/mpc.md)
+* [Model Predictive Controls with ROS](mpc/model-predictive-controls-with-ros.md)
+* [Running MPC](mpc/running-mpc/README.md)
+  * [MPC with Rotors](mpc/running-mpc/mpc-with-rotors.md)
+  * [MPC with PX4 Sim](mpc/running-mpc/mpc-with-px4-sim.md)
+* [Setup with Vicon](mpc/setup-with-vicon.md)
+* [Odometry from pose data](mpc/odometry-from-pose-data.md)
+* [System Identification](mpc/system-identification.md)
 
 ## ROS
 
