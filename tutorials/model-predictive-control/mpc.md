@@ -1,6 +1,10 @@
-# MPC
+---
+description: Contains resources related to Model Predictive Controls
+---
 
-* What is state space modeling?: [Click Here!](http://web.mit.edu/2.14/www/Handouts/StateSpace.pdf)​
+# Refrences
+
+* What is state space modelling?: [Click Here!](http://web.mit.edu/2.14/www/Handouts/StateSpace.pdf)​
 * Lecture from Mathworks \(Beginner\): [Click here!](https://in.mathworks.com/videos/understanding-model-predictive-control-part-1-why-use-mpc--1526484715269.html)​
 * Lecture from [Steve Brunton](https://www.eigensteve.com/) \(Intermediate\): [Click Here!](https://youtu.be/YwodGM2eoy4)​
 * Model predictive control: Theory and practice—A survey: [Click Here!](https://www.sciencedirect.com/science/article/pii/0005109889900022)​

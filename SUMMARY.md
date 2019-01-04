@@ -6,7 +6,6 @@
   * [dump1](temp/dump1.md)
   * [dump2](temp/dump2.md)
   * [dump3](temp/dump3.md)
-  * [MPC](temp/mpc.md)
   * [dump4](temp/dump4.md)
   * [dump 5](temp/dump-5.md)
   * [Algos for path planning](temp/algos-for-path-planning.md)
@@ -27,14 +26,19 @@
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
   * [Quaternions](tutorials/theory/quaternions.md)
 * [Model Predictive Control](tutorials/model-predictive-control/README.md)
+  * [Refrences](tutorials/model-predictive-control/mpc.md)
+  * [Model Predictive Controls with ROS](tutorials/model-predictive-control/model-predictive-controls-with-ros.md)
+  * [Running MPC](tutorials/model-predictive-control/running-mpc/README.md)
+    * [MPC with Rotors](tutorials/model-predictive-control/running-mpc/mpc-with-rotors.md)
+    * [MPC with PX4 Sim](tutorials/model-predictive-control/running-mpc/mpc-with-px4-sim.md)
   * [Setup with Vicon](tutorials/model-predictive-control/setup-with-vicon.md)
+  * [System Identification](tutorials/model-predictive-control/system-identification.md)
 
 ## ROS
 
 * [Package Installation](ros/package-installation/README.md)
   * [MAVROS](ros/package-installation/mavros.md)
 * [Tutorials](ros/tutorials.md)
-* [Model Predictive Control](ros/model-predictive-control.md)
 
 ## Resources
 
