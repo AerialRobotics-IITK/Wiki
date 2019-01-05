@@ -6,6 +6,8 @@ description: Links to some insightful GitHub repositories.
 
 ## MultiRotor
 
+{% embed url="https://github.com/ethz-asl" %}
+
 {% embed url="https://github.com/multirotor-iitk/Summer-17" caption="" %}
 
 ## Simulation

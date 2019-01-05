@@ -61,6 +61,7 @@
   * [Linux and Git](https://docs.google.com/presentation/d/1KPGa-49XFCrWlBRLKL04LhY0gw5xKA6Eexpzu1QkOHY/edit#slide=id.g1e14af4804_1_81)
   * [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309_0_20)
   * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
+  * [Software training](https://github.com/RoboJackets/software-training)
 * [Useful Repositories](resources/useful-repositories.md)
 * [References](resources/references/README.md)
   * [Websites](resources/references/websites.md)
