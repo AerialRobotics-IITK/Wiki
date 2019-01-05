@@ -10,3 +10,7 @@ Here are links to the articles in this section:
 
 {% page-ref page="papers/" %}
 
+{% page-ref page="pdfs/" %}
+
+{% page-ref page="courses/" %}
+

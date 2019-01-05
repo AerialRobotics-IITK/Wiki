@@ -4,7 +4,7 @@ description: Contains methods for system identification of Quadrotor
 
 # System Identification
 
-### Steps to be followed
+### 3Steps to be followed
 
 1. Firmware For Pixhawk Autopilot
 
