@@ -43,6 +43,7 @@
   * [MPC with PX4 Sim](mpc/running-mpc/mpc-with-px4-sim.md)
 * [Setup with Vicon](mpc/setup-with-vicon.md)
 * [Odometry from pose data](mpc/odometry-from-pose-data.md)
+* [Example Launch files for System Identification](mpc/example-launch-files-for-system-identification.md)
 * [System Identification](mpc/system-identification.md)
 
 ## ROS
