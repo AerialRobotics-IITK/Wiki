@@ -10,7 +10,7 @@ Here are the articles in this book:
 
 {% page-ref page="tutorials/theory/" %}
 
-{% page-ref page="ros/package-installation/" %}
+{% page-ref page="ros/package-installation.md" %}
 
 {% page-ref page="resources/lectures/" %}
 

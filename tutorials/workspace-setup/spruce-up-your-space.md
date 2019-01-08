@@ -12,5 +12,9 @@ Work in Progress.
 
 ## ZSH with PowerLevel9K:
 
+{% embed url="https://www.triology.de/en/blog-entries/zsh-with-powerlevel9k" %}
+
 ## GNOME:
+
+{% embed url="https://itsfoss.com/how-to-install-gnome-in-ubuntu-14-04/" %}
 

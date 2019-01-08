@@ -16,7 +16,7 @@
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
     * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
   * [Quaternions](tutorials/theory/quaternions/README.md)
-    * [dump2](tutorials/theory/quaternions/dump2.md)
+    * [theory](tutorials/theory/quaternions/dump2.md)
   * [Rotations](tutorials/theory/rotations.md)
   * [Kalman Filters](tutorials/theory/kalman-filters.md)
   * [Path Planning](tutorials/theory/path-planning/README.md)
@@ -29,7 +29,8 @@
 * [Odroid XU4 Setup](tutorials/odroid-xu4-setup.md)
 * [Simulation using Offboard Control](tutorials/simulation-using-offboard-control/README.md)
   * [Enable Offboard Mode in PX4](tutorials/simulation-using-offboard-control/enable-offboard-mode-in-px4.md)
-* [Untitled](tutorials/untitled.md)
+* [Sensor fusion](tutorials/sensor-fusion/README.md)
+  * [DCM Tutorial](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)
 * [Reference wiki links](dump1.md)
 * [MPC setup with mavros](mpc-setup-with-mavros.md)
 
@@ -48,14 +49,11 @@
 
 ## ROS
 
-* [Package Installation](ros/package-installation/README.md)
-  * [MAVROS](ros/package-installation/mavros.md)
-  * [package list](ros/package-installation/package-list.md)
+* [Package Installation](ros/package-installation.md)
 * [Tutorials](ros/tutorials/README.md)
   * [Camera Calibration](ros/tutorials/camera-calibration.md)
-  * [transformation remapping](ros/tutorials/transformation-remapping.md)
-  * [publish static transforms](ros/tutorials/dump3.md)
-  * [using aruco\_ros](ros/tutorials/using-aruco_ros.md)
+  * [ARUCO\_ROS](ros/tutorials/using-aruco_ros.md)
+  * [TF2](ros/tutorials/tf2.md)
 
 ## Resources
 

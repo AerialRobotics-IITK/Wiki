@@ -31,9 +31,9 @@
 * [ ] Sensor fusion
   * [x] [Introduction to AI in robotics](https://classroom.udacity.com/courses/cs373)​
   * [x] ​[How a kalman filter works](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)​
-  * [ ] ​[DCM Tutorial 1](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)​
-  * [ ] ​[DCM Tutorial 2](http://www.starlino.com/dcm_tutorial.html)​
-  * [ ] ​[AHRS Imu](http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)
+  * [x] ​[DCM Tutorial 1](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)​
+  * [x] ​[DCM Tutorial 2](http://www.starlino.com/dcm_tutorial.html)​
+  * [x] ​[AHRS ](http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)[Imu](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
   * [x] ​[MATLAB KALMAN FILTER](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)​
 
 
