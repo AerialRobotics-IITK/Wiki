@@ -1,7 +1,3 @@
----
-description: A guide to setting up your own personal workspace.
----
-
 # Workspace Setup
 
 Here are the articles in this section:

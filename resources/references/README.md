@@ -1,5 +1,5 @@
 ---
-description: Links to useful references.
+description: 'Links to useful pages, and a few papers.'
 ---
 
 # References

@@ -1,7 +1,3 @@
----
-description: This script helps to generate odometry messages from pose messages
----
-
 # Odometry from pose data
 
 

@@ -1,5 +1,5 @@
 ---
-description: Links to all the relevant research.
+description: 'Links to useful papers:'
 ---
 
 # Papers

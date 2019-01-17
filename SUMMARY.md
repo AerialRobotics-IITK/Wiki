@@ -31,8 +31,8 @@
   * [Enable Offboard Mode in PX4](tutorials/simulation-using-offboard-control/enable-offboard-mode-in-px4.md)
 * [Sensor fusion](tutorials/sensor-fusion/README.md)
   * [DCM Tutorial](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)
-* [Reference wiki links](dump1.md)
-* [MPC setup with mavros](mpc-setup-with-mavros.md)
+* [Reference wiki links](tutorials/dump1.md)
+* [MPC setup with mavros](tutorials/mpc-setup-with-mavros.md)
 
 ## MPC
 
@@ -78,4 +78,5 @@
     * [State Space Modelling of a Multirotor](http://www.indjst.org/index.php/indjst/article/viewFile/96613/71697)
   * [Courses](resources/references/courses/README.md)
     * [Introduction to AI in Robotics](https://classroom.udacity.com/courses/cs373)
+  * [Datasets](resources/references/datasets.md)
 

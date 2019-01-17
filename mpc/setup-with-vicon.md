@@ -1,7 +1,3 @@
----
-description: Setup of Quadrotor with Vicon tracking system.
----
-
 # Setup with Vicon
 
 ## Initial setup of VICON

@@ -1,5 +1,5 @@
 ---
-description: The Homepage.
+description: 'Detailed information about our team''s projects, lectures and tutorials.'
 ---
 
 # Introduction

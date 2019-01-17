@@ -1,5 +1,5 @@
 ---
-description: Links to pages that explain all the relevant theory.
+description: Links to resources explaining pertinent theory.
 ---
 
 # Theory

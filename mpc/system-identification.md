@@ -1,7 +1,3 @@
----
-description: Contains methods for system identification of Quadrotor
----
-
 # System Identification
 
 ## Data collection

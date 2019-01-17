@@ -1,7 +1,3 @@
----
-description: Example Launch files for System Identification
----
-
 # Example Launch files for System Identification
 
 ## Using VI Sensor and PX4

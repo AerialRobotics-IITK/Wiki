@@ -1,7 +1,3 @@
----
-description: A short guide to calibrating cameras.
----
-
 # Camera Calibration
 
 The standard camera model used in OpenCV and ROS is referred to as the Pinhole model. You can read more about it here:

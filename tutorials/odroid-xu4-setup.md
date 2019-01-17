@@ -1,7 +1,3 @@
----
-description: Detailed instructions for setting up the Odroid XU4.
----
-
 # Odroid XU4 Setup
 
 ## Source:

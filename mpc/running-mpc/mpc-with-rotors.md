@@ -1,7 +1,3 @@
----
-description: Implementation of MPC with Rotors simulator
----
-
 # MPC with Rotors
 
 * Follow instruction for MPC setup with [Rotors\_simulator](https://github.com/ethz-asl/rotors_simulator)

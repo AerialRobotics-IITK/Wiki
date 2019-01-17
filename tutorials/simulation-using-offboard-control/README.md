@@ -1,9 +1,3 @@
----
-description: >-
-  A brief guide to running a simulation with the drone in off board control
-  mode.
----
-
 # Simulation using Offboard Control
 
 Firstly, follow this page to put the drone in offboard control mode through PX4:

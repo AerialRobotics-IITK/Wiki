@@ -1,7 +1,3 @@
----
-description: Some functions of the TF2 ROS library
----
-
 # TF2
 
 ## tf-remapping

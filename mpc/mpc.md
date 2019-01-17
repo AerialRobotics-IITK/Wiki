@@ -1,7 +1,3 @@
----
-description: Contains resources related to Model Predictive Controls
----
-
 # References
 
 * What is state space modelling?: [Click Here!](http://web.mit.edu/2.14/www/Handouts/StateSpace.pdf)​

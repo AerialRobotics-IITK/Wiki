@@ -1,7 +1,3 @@
----
-description: A tutorial on using the ARUCO-ROS interface.
----
-
 # ARUCO\_ROS
 
 Calibrate the camera first:

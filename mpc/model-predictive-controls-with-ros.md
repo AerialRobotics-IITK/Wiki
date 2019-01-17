@@ -1,7 +1,3 @@
----
-description: Contains  implementation of MPC with ROS
----
-
 # Model Predictive Controls with ROS
 
 ## Model predictive control from ETHZ-ASL
