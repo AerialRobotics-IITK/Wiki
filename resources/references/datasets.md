@@ -14,3 +14,23 @@ This web page presents visual-inertial datasets collected on-board a Micro Aeria
 
 {% embed url="https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets" %}
 
+### CVonline: Image Databases
+
+This is a collated list of image and video databases that people have found useful for computer vision research and algorithm evaluation.
+
+{% embed url="http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm" %}
+
+### UCI-MLR
+
+{% embed url="http://archive.ics.uci.edu/ml/datasets.html" %}
+
+### Arkansas Plant Diseases Database
+
+Image Library for Various Plant Diseases in Arkansas.
+
+{% embed url="https://www.uaex.edu/yard-garden/resource-library/diseases/" %}
+
+
+
+### 
+
