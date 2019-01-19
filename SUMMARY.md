@@ -79,4 +79,22 @@
   * [Courses](resources/references/courses/README.md)
     * [Introduction to AI in Robotics](https://classroom.udacity.com/courses/cs373)
   * [Datasets](resources/references/datasets.md)
+* [Useful Reading Links](resources/useful-reading-links/README.md)
+  * [Aerial Robotics](resources/useful-reading-links/aerial-robotics.md)
+  * [Books](resources/useful-reading-links/books.md)
+  * [Computer Vision and Image Processing](resources/useful-reading-links/computer-vision-and-image-processing.md)
+  * [Courses on AI and Robotics](resources/useful-reading-links/courses-on-ai-and-robotics.md)
+  * [Deep Neural Network](resources/useful-reading-links/deep-neural-network.md)
+  * [Dynamics and Controls system](resources/useful-reading-links/dynamics-and-controls-system.md)
+  * [Motion Planning](resources/useful-reading-links/motion-planning.md)
+  * [Probabilistic Robotics](resources/useful-reading-links/probabilistic-robotics.md)
+  * [Programming](resources/useful-reading-links/programming.md)
+  * [Robotics Hardware](resources/useful-reading-links/robotics-hardware.md)
+  * [Miscellaneous and Awesome](resources/useful-reading-links/miscellaneous-and-awesome.md)
+
+## Visual Inertial Sensors
+
+* [Visual Inertial Sensors](visual-inertial-sensors/visual-inertial-sensors.md)
+* [Visual-Inertial Sensing](visual-inertial-sensors/visual-inertial-sensing.md)
+* [DIYing a VI-Sensor](visual-inertial-sensors/diying-a-vi-sensor.md)
 
