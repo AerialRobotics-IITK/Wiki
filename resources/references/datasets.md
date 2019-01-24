@@ -2,6 +2,10 @@
 
 ## Vision Based Systems
 
+### The Kaggle Dataset
+
+{% embed url="https://www.kaggle.com/" %}
+
 ### The KITTI Vision Benchmark Suite
 
 * KITTI's tasks of interest are: stereo, optical flow, visual odometry, 3D object detection and 3D tracking. For this purpose, They equipped a standard station wagon with two high-resolution color and grayscale video cameras. Accurate ground truth is provided by a Velodyne laser scanner and a GPS localization system.
