@@ -32,6 +32,7 @@
 * [Sensor fusion](tutorials/sensor-fusion/README.md)
   * [DCM Tutorial](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)
 * [Reference wiki links](tutorials/dump1.md)
+* [CMake](tutorials/cmake.md)
 * [MPC setup with mavros](tutorials/mpc-setup-with-mavros.md)
 
 ## MPC
