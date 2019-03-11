@@ -34,6 +34,7 @@
 * [Reference wiki links](tutorials/dump1.md)
 * [CMake](tutorials/cmake.md)
 * [MPC setup with mavros](tutorials/mpc-setup-with-mavros.md)
+* [Writing udev rule](tutorials/writing-udev-rule.md)
 
 ## MPC
 
