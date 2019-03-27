@@ -99,4 +99,5 @@
 * [Visual Inertial Sensors](visual-inertial-sensors/visual-inertial-sensors.md)
 * [Visual-Inertial Sensing](visual-inertial-sensors/visual-inertial-sensing.md)
 * [DIYing a VI-Sensor](visual-inertial-sensors/diying-a-vi-sensor.md)
+* [Hardware](visual-inertial-sensors/hardware.md)
 
