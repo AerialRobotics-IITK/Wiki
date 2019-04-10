@@ -39,3 +39,18 @@ sudo apt-get install ros-kinetic-mavros-extras
 
 sudo apt-get install ros-kinetic-mavlink
 
+cd ~/Downloads
+
+sudo apt-get install git
+
+git clone https://github.com/jayrambhia/Install-OpenCV.git
+
+cd Install-OpenCV/Ubuntu
+chmod +x *
+./opencv_latest.sh
+
+cd ~/Downloads
+
+sudo apt-get install zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+echo "exec zsh">>~/.bashrc
