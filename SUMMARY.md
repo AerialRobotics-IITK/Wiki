@@ -67,6 +67,7 @@
   * [Inter IIT Tech Meet 2018](https://docs.google.com/presentation/d/15JQCeglxh4gMW0vWIgDPPF8rYcScEiSRiINqZVHpNE0/edit#slide=id.p3)
   * [Kalman Filters](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
   * [Linux and Git](https://docs.google.com/presentation/d/1KPGa-49XFCrWlBRLKL04LhY0gw5xKA6Eexpzu1QkOHY/edit#slide=id.g1e14af4804_1_81)
+  * [Git Tutorial](https://www.atlassian.com/git/tutorials)
   * [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309_0_20)
   * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
   * [Software Training](https://github.com/RoboJackets/software-training)
