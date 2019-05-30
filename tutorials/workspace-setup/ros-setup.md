@@ -10,6 +10,8 @@ Robot Operating System \(ROS\) is robotics middleware. Although it is not an ope
 
 {% hint style="info" %}
 This installation will install ROS Kinetic on the system.
+
+* Requires Ubuntu 16.04 LTS
 {% endhint %}
 
 To install ROS, open the terminal and run the following:

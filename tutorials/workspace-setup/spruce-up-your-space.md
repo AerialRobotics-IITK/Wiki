@@ -10,6 +10,10 @@ description: Additional tools to make your workspace more attractive.
 Work in Progress.
 {% endhint %}
 
+## i3 : improved tiling window manager
+
+{% embed url="https://i3wm.org/" %}
+
 ## ZSH with PowerLevel9K:
 
 {% embed url="https://www.triology.de/en/blog-entries/zsh-with-powerlevel9k" %}

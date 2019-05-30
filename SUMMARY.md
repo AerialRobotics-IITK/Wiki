@@ -11,6 +11,12 @@
   * [ROS Setup](tutorials/workspace-setup/ros-setup.md)
   * [PX4 Setup](tutorials/workspace-setup/px4-setup/README.md)
     * [PX4 Toolchain Setup](tutorials/workspace-setup/px4-setup/px4-toolchain-setup.md)
+* [How to Write a ROS Package](tutorials/how-to-write-a-ros-package/README.md)
+  * [ROS Package](tutorials/how-to-write-a-ros-package/ros-package.md)
+  * [Node Handles, Parameters, and Topics](tutorials/how-to-write-a-ros-package/node-handles-parameters-and-topics.md)
+  * [Coding Standards](tutorials/how-to-write-a-ros-package/coding-standards.md)
+  * [Transformations](tutorials/how-to-write-a-ros-package/transformations.md)
+  * [Conversions](tutorials/how-to-write-a-ros-package/conversions.md)
 * [Theory](tutorials/theory/README.md)
   * [PID](tutorials/theory/pid/README.md)
     * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
@@ -101,4 +107,8 @@
 * [Visual-Inertial Sensing](visual-inertial-sensors/visual-inertial-sensing.md)
 * [DIYing a VI-Sensor](visual-inertial-sensors/diying-a-vi-sensor.md)
 * [Hardware](visual-inertial-sensors/hardware.md)
+
+## Offboard control from PX4
+
+* [Offboard mode](offboard-control-from-px4/offboard-mode.md)
 

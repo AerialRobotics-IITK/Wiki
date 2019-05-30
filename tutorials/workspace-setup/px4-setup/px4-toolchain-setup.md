@@ -17,5 +17,3 @@ We'll be using **NuttX** based hardware, so **AVOID** Snapdragon Flight, Raspber
 * FastRTPS installation
 * Simulation Dependencies
 
-We'll prefer **Qt Creator** as our IDE.
-

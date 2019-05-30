@@ -25,6 +25,10 @@ Vim is a highly configurable text editor. Run the following command in the termi
 sudo apt-get install vim
 ```
 
+{% hint style="info" %}
+Useful for TUI \(Terminal User Interface\) based debugging.
+{% endhint %}
+
 ### Git:
 
 {% embed url="https://github.com" caption="" %}
