@@ -1,5 +1,37 @@
 # Example Launch files for System Identification
 
+## Using GPS and PX4
+
+```markup
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="mav_name" default="example"/>
+  <arg name="namespace" default="$(arg mav_name)" />
+
+  <!-- It is good practice to use a system namespace so that multiple MAVs can be flown on the same network -->
+  <group ns="$(arg namespace)" >
+
+  <!-- Autopilot interface -->
+  <node pkg="mavros" type="mavros_node" name="mavros" output="screen">
+    <rosparam command="load" file="$(find mav_startup)/parameters/mavs/$(arg mav_name)/px4_config.yaml" />
+  </node>
+
+  <!-- MPC converting trajectories into attitude and thrust commands -->
+  <node name="mav_nonlinear_mpc" pkg="mav_nonlinear_mpc" type="nonlinear_mpc_node" respawn="false" clear_params="true" output="screen">
+    <remap from="odometry" to="mavros/local_position/odom" />
+    <remap from="rc" to="mavros/rc/in" />
+    <rosparam file="$(find mav_startup)/parameters/mavs/$(arg mav_name)/nonlinear_mpc.yaml"/>
+    <rosparam file="$(find mav_startup)/parameters/mavs/$(arg mav_name)/disturbance_observer.yaml"/>
+    <param name="simulation" value="false"/>
+    <param name="autopilot_interface" value="mavros"/>
+    
+    <remap from="command/roll_pitch_yawrate_thrust" to="mavros/setpoint_raw/roll_pitch_yawrate_thrust"/>
+  </node>
+  
+  </group>
+</launch>
+```
+
 ## Using VI Sensor and PX4
 
 ```markup

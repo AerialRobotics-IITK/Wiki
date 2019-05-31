@@ -64,9 +64,9 @@
 
 * [Introduction](control-system/introduction.md)
 * [Model Predictive Control](control-system/model-predictive-control/README.md)
-  * [Model Predictive Controls with ROS](control-system/model-predictive-control/model-predictive-controls-with-ros.md)
   * [System Identification](control-system/model-predictive-control/system-identification.md)
   * [Example Launch files for System Identification](control-system/model-predictive-control/example-launch-files-for-system-identification.md)
+  * [Model Predictive Controls with ROS](control-system/model-predictive-control/model-predictive-controls-with-ros.md)
   * [Running MPC](control-system/model-predictive-control/running-mpc/README.md)
     * [MPC with Rotors](control-system/model-predictive-control/running-mpc/mpc-with-rotors.md)
     * [MPC with PX4 Sim](control-system/model-predictive-control/running-mpc/mpc-with-px4-sim.md)

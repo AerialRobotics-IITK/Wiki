@@ -2,27 +2,27 @@
 
 ## Data collection
 
-We will need to record the commanded system attitude and the estimated attitude. When using mav\_control\_rw and PX4 this is done as follows.
+We will need to record the commanded attitude and the estimated attitude for angular motion estimate. When using `mav_control_rw` and `PX4` this is done as follows.
 
 * Use one of the provided example launchfiles to start mavros and mav\_nonlinear\_mpc
 
 {% page-ref page="example-launch-files-for-system-identification.md" %}
 
 * On the RC remote put the system into offboard mode. This will put the mpc infrastructure in the loop making any commanded attitude sent to the system visable to ROS on the topic `mavros/setpoint_raw/roll_pitch_yawrate_thrust`.
-* Put the MPC into RC teleop mode \(usually done through the RC remote\). This is done as we can't use the MPC before the sysid is done \(and also lets us fly without a position estimate\). In this mode the MPC just scales and passes through RC stick commands.
+* Put the MPC into RC manual mode \(usually done through the RC remote\). This is done as we can't use the MPC before the sysid is done \(and also lets us fly without a position estimate\). In this mode the MPC just scales and passes through RC stick commands.
 * Record the commanded attitude as well as the PX4 estimated attitude \(`mavros/setpoint_raw/roll_pitch_yawrate_thrust` and `mavros/imu/data`
 
 {% hint style="warning" %}
 they may be in a namespace
 {% endhint %}
 
-Fly the system for a few minutes recording the data, try to fly a range of roll and pitches so that all normal flight characteristics can be observed. Yaw is not explicitly modeled in the MPC so does not need identification in the same way.
+Fly the system \(try aggressive flying\) for a few minutes recording the data, try to fly a range of roll and pitches so that all normal flight characteristics can be observed. Yaw is not explicitly modeled in the MPC so does not need identification in the same way.
 
 ![Process for system identification](../../.gitbook/assets/untitled-presentation.png)
 
 ## Data Processing
 
-We use the a standard Matlab toolbox for model fitting. This is done by the [mav\_sysid.m](https://github.com/ethz-asl/mav_system_identification/blob/master/mav_sysid/mav_sysid.m) in our [mav\_system\_identification repo](https://github.com/ethz-asl/mav_system_identification).
+We use the a standard Matlab toolbox for model fitting. This is done by the [mav\_sysid.m](https://github.com/ethz-asl/mav_system_identification/blob/master/mav_sysid/mav_sysid.m) in ETH-ASL [mav\_system\_identification repo](https://github.com/ethz-asl/mav_system_identification).
 
 Once run it should produce a series of graphs as well as a print out of the needed parameters. An example of the roll response is shown below.
 
