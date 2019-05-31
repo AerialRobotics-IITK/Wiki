@@ -4,6 +4,7 @@
 
 ## Tutorials
 
+* [TF2](tutorials/tf2.md)
 * [Workspace Setup](tutorials/workspace-setup/README.md)
   * [Installing Ubuntu](tutorials/workspace-setup/installing-ubuntu.md)
   * [Basic Linux Setup](tutorials/workspace-setup/untitled.md)
@@ -17,55 +18,36 @@
   * [Coding Standards](tutorials/how-to-write-a-ros-package/coding-standards.md)
   * [Transformations](tutorials/how-to-write-a-ros-package/transformations.md)
   * [Conversions](tutorials/how-to-write-a-ros-package/conversions.md)
-* [Theory](tutorials/theory/README.md)
-  * [PID](tutorials/theory/pid/README.md)
-    * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
-    * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
-  * [Quaternions](tutorials/theory/quaternions/README.md)
-    * [theory](tutorials/theory/quaternions/dump2.md)
-  * [Rotations](tutorials/theory/rotations.md)
-  * [Kalman Filters](tutorials/theory/kalman-filters.md)
-  * [Path Planning](tutorials/theory/path-planning/README.md)
-    * [Grassfire Algorithm](tutorials/theory/path-planning/untitled.md)
-    * [Dijkstra Algorithm](tutorials/theory/path-planning/untitled-1.md)
-    * [A\* Algorithm](tutorials/theory/path-planning/a-algorithm.md)
-    * [Probabilistic Roadmap](tutorials/theory/path-planning/probabilistic-roadmap.md)
-    * [RRT Algorithm](tutorials/theory/path-planning/rrt-algorithm.md)
-    * [Visibility Graph Analysis](tutorials/theory/path-planning/visibility-graph-analysis.md)
 * [Odroid XU4 Setup](tutorials/odroid-xu4-setup.md)
 * [Simulation using Offboard Control](tutorials/simulation-using-offboard-control/README.md)
   * [Enable Offboard Mode in PX4](tutorials/simulation-using-offboard-control/enable-offboard-mode-in-px4.md)
+* [ARUCO\_ROS](tutorials/using-aruco_ros.md)
+* [Package Installation](tutorials/package-installation.md)
 * [Sensor fusion](tutorials/sensor-fusion/README.md)
   * [DCM Tutorial](http://www.starlino.com/wp-content/uploads/data/dcm_tutorial/Starlino_DCM_Tutorial_01.pdf)
 * [Reference wiki links](tutorials/dump1.md)
 * [CMake](tutorials/cmake.md)
 * [MPC setup with mavros](tutorials/mpc-setup-with-mavros.md)
+* [Camera Calibration](tutorials/camera-calibration.md)
 * [Writing udev rule](tutorials/writing-udev-rule.md)
 
-## MPC
+## Concepts
 
-* [Model Predictive Control](mpc/model-predictive-control.md)
-* [References](mpc/mpc.md)
-* [Model Predictive Controls with ROS](mpc/model-predictive-controls-with-ros.md)
-* [Running MPC](mpc/running-mpc/README.md)
-  * [MPC with Rotors](mpc/running-mpc/mpc-with-rotors.md)
-  * [MPC with PX4 Sim](mpc/running-mpc/mpc-with-px4-sim.md)
-* [Setup with Vicon](mpc/setup-with-vicon.md)
-* [Odometry from pose data](mpc/odometry-from-pose-data.md)
-* [Example Launch files for System Identification](mpc/example-launch-files-for-system-identification.md)
-* [System Identification](mpc/system-identification.md)
-
-## ROS
-
-* [Package Installation](ros/package-installation.md)
-* [Tutorials](ros/tutorials/README.md)
-  * [Camera Calibration](ros/tutorials/camera-calibration.md)
-  * [ARUCO\_ROS](ros/tutorials/using-aruco_ros.md)
-  * [TF2](ros/tutorials/tf2.md)
-
-## Resources
-
-* [Lectures](resources/lectures/README.md)
+* [PID](concepts/pid/README.md)
+  * [Introduction](https://www.youtube.com/watch?v=4Y7zG48uHRo)
+  * [Basic Theory](https://www.youtube.com/watch?v=UR0hOmjaHp0&feature=youtu.be&t=215)
+* [Quaternions](concepts/quaternions/README.md)
+  * [theory](concepts/quaternions/dump2.md)
+* [Kalman Filters](concepts/kalman-filters.md)
+* [Rotations](concepts/rotations.md)
+* [Path Planning](concepts/path-planning/README.md)
+  * [Grassfire Algorithm](concepts/path-planning/untitled.md)
+  * [Dijkstra Algorithm](concepts/path-planning/untitled-1.md)
+  * [A\* Algorithm](concepts/path-planning/a-algorithm.md)
+  * [Probabilistic Roadmap](concepts/path-planning/probabilistic-roadmap.md)
+  * [RRT Algorithm](concepts/path-planning/rrt-algorithm.md)
+  * [Visibility Graph Analysis](concepts/path-planning/visibility-graph-analysis.md)
+* [Lectures](concepts/lectures/README.md)
   * [Aerial Robotics](https://docs.google.com/presentation/d/1urhhu-BCSltQ9QCSFMuBtE4ckXMPMfLpFOiIZY1YMOY/edit#slide=id.p)
   * [Avionics](https://docs.google.com/presentation/d/1uEwSUcQViZwr0s7IRR3UJO4M-rfXotcJnbZww4TSOJY/edit#slide=id.p)
   * [Control Systems: Introduction](http://www.dis.uniroma1.it/~lanari/ControlSystems/CS%20-%20Lectures%202016/2016_Lec01_Introduction.pdf)
@@ -77,6 +59,24 @@
   * [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309_0_20)
   * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
   * [Software Training](https://github.com/RoboJackets/software-training)
+
+## Control System
+
+* [Introduction](control-system/introduction.md)
+* [Model Predictive Control](control-system/model-predictive-control/README.md)
+  * [Model Predictive Controls with ROS](control-system/model-predictive-control/model-predictive-controls-with-ros.md)
+  * [System Identification](control-system/model-predictive-control/system-identification.md)
+  * [Example Launch files for System Identification](control-system/model-predictive-control/example-launch-files-for-system-identification.md)
+  * [Running MPC](control-system/model-predictive-control/running-mpc/README.md)
+    * [MPC with Rotors](control-system/model-predictive-control/running-mpc/mpc-with-rotors.md)
+    * [MPC with PX4 Sim](control-system/model-predictive-control/running-mpc/mpc-with-px4-sim.md)
+  * [Setup with Vicon](control-system/model-predictive-control/setup-with-vicon.md)
+  * [Odometry from pose data](control-system/model-predictive-control/odometry-from-pose-data.md)
+  * [References](control-system/model-predictive-control/mpc.md)
+* [PID Controller](control-system/pid-controller.md)
+
+## Resources
+
 * [Useful Repositories](resources/useful-repositories.md)
 * [References](resources/references/README.md)
   * [Websites](resources/references/websites.md)
@@ -101,30 +101,24 @@
   * [Robotics Hardware](resources/useful-reading-links/robotics-hardware.md)
   * [Miscellaneous and Awesome](resources/useful-reading-links/miscellaneous-and-awesome.md)
 
-## Visual Inertial Sensors
-
-* [Visual Inertial Sensors](visual-inertial-sensors/visual-inertial-sensors.md)
-* [Visual-Inertial Sensing](visual-inertial-sensors/visual-inertial-sensing.md)
-* [DIYing a VI-Sensor](visual-inertial-sensors/diying-a-vi-sensor.md)
-* [Hardware](visual-inertial-sensors/hardware.md)
-
 ## Offboard control from PX4
 
 * [Offboard mode](offboard-control-from-px4/offboard-mode.md)
 
-## Control System
+## Estimation
+
+* [Visual-Inertial Odometry](estimation/untitled/README.md)
+  * [Hardware Requirements](estimation/untitled/hardware.md)
+  * [Visual-Inertial Sensing](estimation/untitled/visual-inertial-sensing.md)
+  * [DIYing a VI-Sensor](estimation/untitled/diying-a-vi-sensor.md)
 
 ## Computer Vision
 
 * [Untitled](computer-vision/untitled.md)
 
-## Estimation
+## Machine Learning
 
-* [Untitled](estimation/untitled.md)
-
-## Learning \(Machine Learning etc.\)
-
-* [Untitled](learning-machine-learning-etc./untitled.md)
+* [Untitled](machine-learning/untitled.md)
 
 ## Hardware Integration
 

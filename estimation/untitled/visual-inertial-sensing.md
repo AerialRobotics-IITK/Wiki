@@ -1,8 +1,10 @@
+---
+description: All about VI sensors.
+---
+
 # Visual-Inertial Sensing
 
-## Visual-Inertial Sensing
-
-Visual inertial sensors are a popular sensor choice for SLAM due to a large number of advantages over other sensor setups
+Visual-inertial sensors are a popular sensor choice for SLAM due to a large number of advantages over other sensor setups
 
 * Unlike monocular SLAM, the maps have an absolute scale.
 * State estimation and feature tracking is more robust to motion blur and fast rotations than visual only systems.

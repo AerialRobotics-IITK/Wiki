@@ -2,7 +2,7 @@
 description: Hardware required for VIO systems
 ---
 
-# Hardware
+# Hardware Requirements
 
 ## Camera
 

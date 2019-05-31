@@ -1,8 +1,10 @@
+---
+description: Build your own VI sensor framework.
+---
+
 # DIYing a VI-Sensor
 
-## DIYing a VI-Sensor
-
-Due to the limited availability of quality VI sensors, most people who need tightly synchronized visual inertial data are going to have to put one together themselves. This guide will give a general overview of what is important in getting a sensor up and running, before giving specific instructions and code for a sensor using a pixracer and point-grey camera.
+Due to the limited availability of quality VI sensors, most people who need tightly synchronized visual inertial data have to put one together themselves. This guide gives a general overview of what is important in getting a sensor up and running, before giving specific instructions and code for a sensor using a pixracer and point-grey camera.
 
 ### Overview
 

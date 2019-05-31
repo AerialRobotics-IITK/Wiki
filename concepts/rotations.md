@@ -28,7 +28,7 @@ Their usage is similiar as that explained in the previous section.
 
 For the applications of rotations in UAVs, refer to the following link:
 
-{% file src="../../.gitbook/assets/ae321\_eqmotion.pdf" caption="Flight Mechanics" %}
+{% file src="../.gitbook/assets/ae321\_eqmotion.pdf" caption="Flight Mechanics" %}
 
 
 

@@ -18,7 +18,7 @@ they may be in a namespace
 
 Fly the system for a few minutes recording the data, try to fly a range of roll and pitches so that all normal flight characteristics can be observed. Yaw is not explicitly modeled in the MPC so does not need identification in the same way.
 
-![Process for system identification](../.gitbook/assets/untitled-presentation.png)
+![Process for system identification](../../.gitbook/assets/untitled-presentation.png)
 
 ## Data Processing
 
@@ -26,7 +26,7 @@ We use the a standard Matlab toolbox for model fitting. This is done by the [mav
 
 Once run it should produce a series of graphs as well as a print out of the needed parameters. An example of the roll response is shown below.
 
-![](../.gitbook/assets/68747470733a2f2f692e696d6775722e636f6d2f45627931474c372e6a7067.jpeg)
+![](../../.gitbook/assets/68747470733a2f2f692e696d6775722e636f6d2f45627931474c372e6a7067.jpeg)
 
 and an example of the script output is as follows
 

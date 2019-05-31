@@ -1,2 +1,0 @@
-# Visual Inertial Sensors
-
