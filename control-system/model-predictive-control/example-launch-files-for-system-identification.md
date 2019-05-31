@@ -1,4 +1,8 @@
-# Example Launch files for System Identification
+---
+description: Sample launch files that can be used to do system identification.
+---
+
+# Sample SysId Launch Files
 
 ## Using GPS and PX4
 
@@ -118,7 +122,7 @@
 </launch>
 ```
 
-### Example Param files
+## Example Param files
 
 * `px4_config.yaml`
 

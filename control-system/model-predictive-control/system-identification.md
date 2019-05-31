@@ -8,21 +8,21 @@ We will need to record the commanded attitude and the estimated attitude for ang
 
 {% page-ref page="example-launch-files-for-system-identification.md" %}
 
-* On the RC remote put the system into offboard mode. This will put the mpc infrastructure in the loop making any commanded attitude sent to the system visable to ROS on the topic `mavros/setpoint_raw/roll_pitch_yawrate_thrust`.
+* On the RC remote put the system into offboard mode. This will put the mpc infrastructure in the loop making any commanded attitude sent to the system visible to ROS on the topic `mavros/setpoint_raw/roll_pitch_yawrate_thrust`.
 * Put the MPC into RC manual mode \(usually done through the RC remote\). This is done as we can't use the MPC before the sysid is done \(and also lets us fly without a position estimate\). In this mode the MPC just scales and passes through RC stick commands.
-* Record the commanded attitude as well as the PX4 estimated attitude \(`mavros/setpoint_raw/roll_pitch_yawrate_thrust` and `mavros/imu/data`
+* Record the commanded attitude as well as the PX4 estimated attitude from the topics`mavros/setpoint_raw/roll_pitch_yawrate_thrust` and `mavros/imu/data`
 
 {% hint style="warning" %}
 they may be in a namespace
 {% endhint %}
 
-Fly the system \(try aggressive flying\) for a few minutes recording the data, try to fly a range of roll and pitches so that all normal flight characteristics can be observed. Yaw is not explicitly modeled in the MPC so does not need identification in the same way.
+Fly the system \(try aggressive flying\) for a few minutes recording the data, try to fly a range of roll and pitches so that all normal flight characteristics can be observed. Yaw is not explicitly modeled in the MPC so does not need identification in the same way. So yaw can be ignored during system identification.
 
 ![Process for system identification](../../.gitbook/assets/untitled-presentation.png)
 
 ## Data Processing
 
-We use the a standard Matlab toolbox for model fitting. This is done by the [mav\_sysid.m](https://github.com/ethz-asl/mav_system_identification/blob/master/mav_sysid/mav_sysid.m) in ETH-ASL [mav\_system\_identification repo](https://github.com/ethz-asl/mav_system_identification).
+We use a standard Matlab toolbox for model fitting. This is done by the [mav\_sysid.m](https://github.com/ethz-asl/mav_system_identification/blob/master/mav_sysid/mav_sysid.m) from the ETH-ASL [mav\_system\_identification](https://github.com/ethz-asl/mav_system_identification) repository.
 
 Once run it should produce a series of graphs as well as a print out of the needed parameters. An example of the roll response is shown below.
 
@@ -87,5 +87,11 @@ The estimated response should closely match the actual. As a rule of thumb if th
 
 [mav\_control\_rw](https://github.com/ethz-asl/mav_control_rw) loads the MPC default values from the `nonlinear_mpc.yaml` file and the default disturbance observer values from the `disturbance_observer.yaml` file. Note that the MPC outputs a desired thrust in Newtons, to send this to the PX4 it must first be converted to the range 0 to 1. This is done in mavros using the thrust\_scaling\_factor given in `px4_config.yaml`.
 
-The best values for the MPC and disturbance observer will depend a lot on your system and your goal \(for example finding the balance between twitchiness and position holding\). Because of this the system is best tuned by putting the system into position hold mode, starting rqt and tweaking the parameters while giving new position commands. It is usually easiest to start by disabling the disturbance observer \(uncheck offset free\) and integrator when tuning so the effects of the different parts are not mixed together. A word of warning, if your thrust constant is wrong by a very large amount your system will power into the ceiling as soon as you enable the MPC.
+The best values for the MPC and disturbance observer will depend a lot on your system and your goal \(for example finding the balance between twitchiness and position holding\). Because of this the system is best tuned by putting the system into position hold mode, starting rqt and tweaking the parameters while giving new position commands. It is usually easiest to start by disabling the disturbance observer \(set offset and integrator parameters to false in the `nonlinear_mpc.yaml` file\) when tuning so the effects of the different parts are not mixed together. 
+
+{% hint style="danger" %}
+If your thrust constant is wrong by a very large amount, your system will power into the ceiling as soon as you enable the MPC.
+{% endhint %}
+
+
 
