@@ -99,7 +99,6 @@
 ## Resources
 
 * [Repositories](resources/useful-repositories.md)
-* [Websites](resources/websites.md)
 * [PDFs](resources/pdfs/README.md)
   * [Path Planning Lecture](https://courses.edx.org/asset-v1:PennX+ROBO1x+1T2017+type@asset+block@Week_9_Graph_Based_Planning_Method.pdf)
   * [Comparison of RRT, RRT\* and RRT\*-Smart](http://paper.ijcsns.org/07_book/201610/20161004.pdf)
