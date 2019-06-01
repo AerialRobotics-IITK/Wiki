@@ -1,3 +1,7 @@
+---
+description: Run simulation in Offboard mode.
+---
+
 # Simulation using Offboard Control
 
 Firstly, follow this page to put the drone in offboard control mode through PX4:
@@ -15,7 +19,7 @@ cd <path_to_Firmware>/Firmware
 make posix_sitl_default gazebo    
 ```
 
-![](../../.gitbook/assets/gazebo.png)
+![](../../../.gitbook/assets/gazebo.png)
 
 This will bring up the PX4 shell:
 

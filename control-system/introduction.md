@@ -1,5 +1,5 @@
 ---
-description: This section describes controller used by our robots.
+description: This section describes the controllers used by our robots.
 ---
 
 # Introduction

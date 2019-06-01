@@ -1,3 +1,7 @@
+---
+description: Tutorials on Sensor Fusion algorithms.
+---
+
 # Sensor fusion
 
 AHRS algorithm:

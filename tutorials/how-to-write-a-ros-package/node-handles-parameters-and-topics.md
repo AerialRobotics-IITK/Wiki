@@ -1,3 +1,7 @@
+---
+description: How To ROS.
+---
+
 # Node Handles, Parameters, and Topics
 
 ## Topic naming, node naming, namespacing
@@ -6,7 +10,7 @@ First, read the [Naming](http://wiki.ros.org/Names) overview on the ROS Wiki, as
 
 #### Why namespaces?
 
-Each of our helicopters runs all its nodes and topics in its own namespace. This makes it easier to see \(1\) which helicopter something is running on, and \(2\) makes it possible to run several helicopters at the same time. This is absolutely essential for any collaborative missions with the helicopters, so _all nodes have to stick to the namespacing convention_.
+Each of our quadrotors runs all its nodes and topics in its own namespace. This makes it easier to see \(1\) which quadrotor something is running on, and \(2\) makes it possible to run several quadrotors at the same time. This is absolutely essential for any collaborative missions with the quadrotors, so _**all nodes have to stick to the namespacing conventions**_.
 
 #### ROS topic names:
 
@@ -24,7 +28,7 @@ There are 4 main types of node handles:
 1. Default \(public\) node handle - `nh_ = ros::NodeHandle();`
 2. Private node handle - `nh_private_ = ros::NodeHandle("~");`
 3. Namespaced node handle - `nh_aslam_ = ros::NodeHandle("aslam");`
-4. Global node handle - `nh_global_ = ros::NodeHandle("/");` - you probably shouldn't use this ever.
+4. Global node handle - `nh_global_ = ros::NodeHandle("/");` - you probably shouldn't use this **ever**.
 
 Generally you will only use the first 2 - you could also use the namespaced node handle for separating out publishers for nodes that have many.
 
@@ -51,5 +55,5 @@ If a node \(or the underlying libraries\) have configurations that can be set at
 
 It is important to provide reasonable defaults for your params. Prefer to make them member variables in a class, and set them to the correct value in the constructor.
 
-Then you can read new values for them
+Then you can read new values for them from the parameter file if they have been specified.
 

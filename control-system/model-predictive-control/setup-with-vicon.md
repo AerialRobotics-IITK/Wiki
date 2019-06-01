@@ -1,4 +1,4 @@
-# Setup with Vicon
+# Setup with VICON
 
 ## Initial setup of VICON
 
@@ -17,13 +17,13 @@ Alignment is compulsory to avoid problem with velocity and orientation of robot.
 
 ## Getting pose data on Onboard Processor
 
-* Using [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu) getting data from Vicon Machine
-  * According to your processor you can any method
+* Using [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu), get data from the VICON Machine
+  * According to your processor you can use the following methodsL
 
 {% tabs %}
 {% tab title="x86 based Processors" %}
 * Processors like [Intel NUC ](https://www.intel.in/content/www/in/en/products/boards-kits/nuc.html)
-  * Install `vicon_bridge` package from
+  * Install the `vicon_bridge` package from
 
 {% embed url="https://github.com/ethz-asl/vicon\_bridge" %}
 {% endtab %}
@@ -31,7 +31,7 @@ Alignment is compulsory to avoid problem with velocity and orientation of robot.
 {% tab title="ARM Based Processors" %}
 * Processors like[ Odroid XU4](https://wiki.odroid.com/odroid-xu4/odroid-xu4), [Raspberry Pi](https://www.raspberrypi.org/)
 
-  * Install `vrpn_client_ros` using
+  * Install the `vrpn_client_ros` using
 
   ```bash
   sudo apt-get install ros-kinetic-vrpn-client-ros -y

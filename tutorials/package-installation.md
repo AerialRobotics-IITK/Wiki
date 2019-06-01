@@ -1,5 +1,5 @@
 ---
-description: Instructions to install packages in ROS.
+description: Install guides for some specific packages.
 ---
 
 # Package Installation

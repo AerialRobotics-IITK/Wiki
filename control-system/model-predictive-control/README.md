@@ -8,6 +8,14 @@ description: A method for constraint optimal control.
 
 {% embed url="https://en.wikipedia.org/wiki/Model\_predictive\_control" %}
 
-### For implementation purpose of MPC, please follow steps given
+### To implement the MPC, go through the following pages:
+
+{% page-ref page="system-identification.md" %}
+
+{% page-ref page="example-launch-files-for-system-identification.md" %}
+
+{% page-ref page="running-mpc/" %}
 
 * 
+
+

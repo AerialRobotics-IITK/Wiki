@@ -1,3 +1,7 @@
+---
+description: Rotating frames.
+---
+
 # Rotations
 
 A vector whose x,y,z components are $$x,y,z$$ respectively is represented as the column matrix$$\begin{bmatrix}x\\y\\z\end{bmatrix} $$ 

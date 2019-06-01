@@ -1,5 +1,5 @@
 ---
-description: Additional tools to make your workspace more attractive.
+description: Add some personal touches to your environment!
 ---
 
 # Spruce up your space

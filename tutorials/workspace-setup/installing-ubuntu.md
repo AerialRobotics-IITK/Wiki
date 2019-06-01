@@ -1,5 +1,5 @@
 ---
-description: Instructions for setting up Ubuntu.
+description: Because Windows bad.
 ---
 
 # Installing Ubuntu

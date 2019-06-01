@@ -1,12 +1,10 @@
 ---
-description: Links to a few useful GitHub repositories.
+description: Links to some useful GitHub repos.
 ---
 
-# Useful Repositories
+# Repositories
 
 ## MultiRotor
-
-{% embed url="https://github.com/ethz-asl" %}
 
 {% embed url="https://github.com/multirotor-iitk/Summer-17" caption="" %}
 

@@ -1,5 +1,5 @@
 ---
-description: Instructions for configuring Pixhawk support.
+description: Installing firmware for the PixHawk.
 ---
 
 # PX4 Setup

@@ -1,4 +1,8 @@
-# ARUCO\_ROS
+---
+description: Using the ArUco ROS package.
+---
+
+# ArUco ROS
 
 Calibrate the camera first:
 
@@ -44,7 +48,7 @@ For single.launch, use the following code:
 
 `image needs image from the camera, the topic should probably be \usb_cam\image_raw`
 
--&gt; Download markers from [here](https://www.google.com/url?q=https://terpconnect.umd.edu/~jwelsh12/enes100/markergen.html&sa=D&source=hangouts&ust=1527022160359000&usg=AFQjCNHeeX8B02g09bn-HMjGZKdVxfNCKw)​
+-&gt; Download markers from [here](https://www.google.com/url?q=https://terpconnect.umd.edu/~jwelsh12/enes100/markergen.html&sa=D&source=hangouts&ust=1527022160359000&usg=AFQjCNHeeX8B02g09bn-HMjGZKdVxfNCKw)​.
 
 {% hint style="info" %}
 Points to note:

@@ -1,3 +1,7 @@
+---
+description: Getting started.
+---
+
 # Workspace Setup
 
 Here are the articles in this section:

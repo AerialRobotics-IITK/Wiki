@@ -1,5 +1,5 @@
 ---
-description: Instructions to install ROS.
+description: How to install ROS.
 ---
 
 # ROS Setup

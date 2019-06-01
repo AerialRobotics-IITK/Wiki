@@ -1,5 +1,5 @@
 ---
-description: Instructions for further setup.
+description: Where's the GUI??
 ---
 
 # Basic Linux Setup

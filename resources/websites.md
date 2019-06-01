@@ -1,5 +1,5 @@
 ---
-description: Links to websites
+description: Some sites.
 ---
 
 # Websites

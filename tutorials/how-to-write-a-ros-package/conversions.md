@@ -1,10 +1,14 @@
+---
+description: Converting data across libraries.
+---
+
 # Conversions
 
-My source/sink data is...
+The data source/sink is:
 
 ### Eigen
 
-To to/from messages, use [**eigen\_conversions**](http://wiki.ros.org/eigen_conversions) \(or [minkindr\_conversions](https://github.com/ethz-asl/minkindr_ros) below\).
+To go to/from messages, use [**eigen\_conversions**](http://wiki.ros.org/eigen_conversions) \(or [minkindr\_conversions](https://github.com/ethz-asl/minkindr_ros) below\).
 
 * [ROS Documentation](http://docs.ros.org/indigo/api/eigen_conversions/html/namespacetf.html)
 
@@ -18,6 +22,8 @@ geometry_msgs::Point point_msg;
 tf::pointEigenToMsg(my_super_cool_vector, point_msg);
 super_cool_publisher_.publish(point_msg);
 ```
+
+### TF
 
 To go to/from TF, use [**tf\_conversions**](http://wiki.ros.org/tf_conversions) \(or also [minkindr\_conversions](https://github.com/ethz-asl/minkindr_ros) below\).
 
@@ -37,7 +43,7 @@ transform_broadcaster_.sendTransform(
     tf::StampedTransform(transform, ros::Time::now(), "map", "world"));
 ```
 
-#### minkindr \(aslam::Transformation\)
+### minkindr \(aslam::Transformation\)
 
 Please use the [**minkindr\_conversions**](https://github.com/ethz-asl/minkindr_ros/minkindr_conversions) package in the [minkindr\_ros](https://github.com/ethz-asl/minkindr_ros) repo. This also wraps some of the Eigen/TF conversions for common datatypes \(`Eigen::Quaterniond`, `Eigen::Vector3d`\), so it is a viable alternative to {tf,eigen}\_conversions in most cases. It also transforms minkindr Transformations back and forth to both messages and TF.
 
@@ -65,9 +71,7 @@ transform_broadcaster_.sendTransform(
     tf::StampedTransform(tf_transform, ros::Time::now(), "map", "world"));
 ```
 
-####  
-
-#### openCV Image
+### OpenCV Image
 
 Please use [**cv\_bridge**](http://wiki.ros.org/cv_bridge). This allows very easy conversions to/from ROS messages.
 

@@ -1,3 +1,7 @@
+---
+description: On the topic of path planning algorithms.
+---
+
 # Path Planning
 
 ## Configuration Space 

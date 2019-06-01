@@ -1,5 +1,5 @@
 ---
-description: Links to all the lectures.
+description: Links to all lecture slides.
 ---
 
 # Lectures
