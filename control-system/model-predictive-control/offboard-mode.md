@@ -17,7 +17,7 @@ Normal mainstream PX4  Firmware uses this message flow and Runs a high-level PID
 
 ### Example
 
-![](../.gitbook/assets/untitled-presentation%20%281%29.png)
+![](../../.gitbook/assets/untitled-presentation%20%281%29.png)
 
 {% embed url="https://github.com/PX4/avoidance\#advanced\\" caption="For more Info!" %}
 
