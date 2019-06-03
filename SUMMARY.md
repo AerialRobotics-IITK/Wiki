@@ -1,32 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-
-## Concepts
-
-* [Quaternions](concepts/quaternions/README.md)
-  * [theory](concepts/quaternions/dump2.md)
-* [Kalman Filters](concepts/kalman-filters.md)
-* [Rotations](concepts/rotations.md)
-* [Path Planning](concepts/path-planning/README.md)
-  * [Grassfire Algorithm](concepts/path-planning/untitled.md)
-  * [Dijkstra Algorithm](concepts/path-planning/untitled-1.md)
-  * [A\* Algorithm](concepts/path-planning/a-algorithm.md)
-  * [Probabilistic Roadmap](concepts/path-planning/probabilistic-roadmap.md)
-  * [RRT Algorithm](concepts/path-planning/rrt-algorithm.md)
-  * [Visibility Graph Analysis](concepts/path-planning/visibility-graph-analysis.md)
-* [Lectures](concepts/lectures/README.md)
-  * [Aerial Robotics](https://docs.google.com/presentation/d/1urhhu-BCSltQ9QCSFMuBtE4ckXMPMfLpFOiIZY1YMOY/edit#slide=id.p)
-  * [Avionics](https://docs.google.com/presentation/d/1uEwSUcQViZwr0s7IRR3UJO4M-rfXotcJnbZww4TSOJY/edit#slide=id.p)
-  * [Control Systems: Introduction](http://www.dis.uniroma1.it/~lanari/ControlSystems/CS%20-%20Lectures%202016/2016_Lec01_Introduction.pdf)
-  * [Control Systems: Models](http://www.dis.uniroma1.it/~lanari/ControlSystems/CS%20-%20Lectures%202016/2016_Lec02_Models.pdf)
-  * [Inter IIT Tech Meet 2018](https://docs.google.com/presentation/d/15JQCeglxh4gMW0vWIgDPPF8rYcScEiSRiINqZVHpNE0/edit#slide=id.p3)
-  * [Kalman Filters](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
-  * [Linux and Git](https://docs.google.com/presentation/d/1KPGa-49XFCrWlBRLKL04LhY0gw5xKA6Eexpzu1QkOHY/edit#slide=id.g1e14af4804_1_81)
-  * [Git Tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
-  * [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309_0_20)
-  * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
-  * [Software Training](https://github.com/RoboJackets/software-training)
 * [Tutorials](tutorials-1/README.md)
   * [Workspace Setup](tutorials-1/workspace-setup/README.md)
     * [Installing Ubuntu](tutorials-1/workspace-setup/installing-ubuntu.md)
@@ -54,6 +28,32 @@
     * [TF2](tutorials-1/miscellaneous/tf2.md)
   * [Reference wiki links](tutorials-1/dump1.md)
   * [MPC setup with mavros](tutorials-1/mpc-setup-with-mavros.md)
+
+## Concepts
+
+* [Quaternions](concepts/quaternions/README.md)
+  * [theory](concepts/quaternions/dump2.md)
+* [Kalman Filters](concepts/kalman-filters.md)
+* [Rotations](concepts/rotations.md)
+* [Path Planning](concepts/path-planning/README.md)
+  * [Grassfire Algorithm](concepts/path-planning/untitled.md)
+  * [Dijkstra Algorithm](concepts/path-planning/untitled-1.md)
+  * [A\* Algorithm](concepts/path-planning/a-algorithm.md)
+  * [Probabilistic Roadmap](concepts/path-planning/probabilistic-roadmap.md)
+  * [RRT Algorithm](concepts/path-planning/rrt-algorithm.md)
+  * [Visibility Graph Analysis](concepts/path-planning/visibility-graph-analysis.md)
+* [Lectures](concepts/lectures/README.md)
+  * [Aerial Robotics](https://docs.google.com/presentation/d/1urhhu-BCSltQ9QCSFMuBtE4ckXMPMfLpFOiIZY1YMOY/edit#slide=id.p)
+  * [Avionics](https://docs.google.com/presentation/d/1uEwSUcQViZwr0s7IRR3UJO4M-rfXotcJnbZww4TSOJY/edit#slide=id.p)
+  * [Control Systems: Introduction](http://www.dis.uniroma1.it/~lanari/ControlSystems/CS%20-%20Lectures%202016/2016_Lec01_Introduction.pdf)
+  * [Control Systems: Models](http://www.dis.uniroma1.it/~lanari/ControlSystems/CS%20-%20Lectures%202016/2016_Lec02_Models.pdf)
+  * [Inter IIT Tech Meet 2018](https://docs.google.com/presentation/d/15JQCeglxh4gMW0vWIgDPPF8rYcScEiSRiINqZVHpNE0/edit#slide=id.p3)
+  * [Kalman Filters](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)
+  * [Linux and Git](https://docs.google.com/presentation/d/1KPGa-49XFCrWlBRLKL04LhY0gw5xKA6Eexpzu1QkOHY/edit#slide=id.g1e14af4804_1_81)
+  * [Git Tutorial](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+  * [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309_0_20)
+  * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
+  * [Software Training](https://github.com/RoboJackets/software-training)
 
 ## Control System
 
