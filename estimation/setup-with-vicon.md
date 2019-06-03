@@ -6,7 +6,7 @@
 
 {% embed url="https://www.vicon.com" caption="" %}
 
-![Setup For Vicon and Robot](../../.gitbook/assets/vicon_setup.png)
+![Setup For Vicon and Robot](../.gitbook/assets/vicon_setup.png)
 
 * Creating Object in [VICON Tracker](https://www.vicon.com/products/software/tracker)
   * First align Robot's front with global frame's x-axis then create object.
