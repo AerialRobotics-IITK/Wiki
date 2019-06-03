@@ -9,7 +9,7 @@ We have implemented two type of controllers for our MAVs:
 * Model Free controller
   * Proportional Integrator Derivative \(PID\) controller : 
 
-{% page-ref page="pid-controller.md" %}
+{% page-ref page="pid-controller/" %}
 
 * Model Based controller
   * Model Predictive Controller \(MPC\)
