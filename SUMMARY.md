@@ -51,7 +51,6 @@
     * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
     * [Software Training](https://github.com/RoboJackets/software-training)
 * [Control System](control-system/README.md)
-  * [Introduction](control-system/introduction.md)
   * [Model Predictive Control](control-system/model-predictive-control/README.md)
     * [System Identification](control-system/model-predictive-control/system-identification.md)
     * [Sample SysId Launch Files](control-system/model-predictive-control/example-launch-files-for-system-identification.md)
