@@ -1,5 +1,5 @@
 ---
-description: On the topic of path planning algorithms.
+description: Plan your path properly.
 ---
 
 # Path Planning

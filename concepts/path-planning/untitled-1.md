@@ -1,3 +1,7 @@
+---
+description: 'Around the world in 80 days, maybe less.'
+---
+
 # Dijkstra Algorithm
 
 ![](../../.gitbook/assets/dijkastra1.png)

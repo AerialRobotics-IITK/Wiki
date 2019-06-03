@@ -1,5 +1,5 @@
 ---
-description: All about Kalman Filtering.
+description: All about Kalman Filters.
 ---
 
 # Kalman Filters

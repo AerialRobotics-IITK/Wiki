@@ -1,3 +1,7 @@
+---
+description: Stuff.
+---
+
 # Resources
 
 Pages in this section:

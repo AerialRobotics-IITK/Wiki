@@ -1,3 +1,7 @@
+---
+description: This path spreads like fire.
+---
+
 # Grassfire Algorithm
 
 The destination cell is marked 0 and the adjacent cells are marked in an increasing number sequence until we reach the starting cell. These numbers indicate the minimum number of steps required to reach the destination cell from that current cell.

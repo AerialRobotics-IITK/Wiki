@@ -1,3 +1,7 @@
+---
+description: Theory stuff.
+---
+
 # Concepts
 
 Pages in this section:

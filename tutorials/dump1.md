@@ -1,3 +1,7 @@
+---
+description: .gitignore.
+---
+
 # Reference wiki links
 
 * [x] ​[Home](https://github.com/AerialRobotics-IITK/Wiki/wiki)​

@@ -1,5 +1,5 @@
 ---
-description: Run simulation in Offboard mode.
+description: Run simulations in Offboard mode.
 ---
 
 # Simulation using Offboard Control

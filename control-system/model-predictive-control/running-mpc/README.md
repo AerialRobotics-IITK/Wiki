@@ -1,3 +1,7 @@
+---
+description: How to Model Predictive Control.
+---
+
 # Running MPC
 
 {% page-ref page="mpc-with-rotors.md" %}

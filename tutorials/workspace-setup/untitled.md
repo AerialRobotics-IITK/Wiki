@@ -1,5 +1,5 @@
 ---
-description: Where's the GUI??
+description: Run Ubuntu.
 ---
 
 # Basic Linux Setup

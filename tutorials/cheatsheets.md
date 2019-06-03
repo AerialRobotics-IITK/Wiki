@@ -1,5 +1,5 @@
 ---
-description: A collection of various cheatsheets.
+description: Sometimes cheating is good.
 ---
 
 # Cheatsheets

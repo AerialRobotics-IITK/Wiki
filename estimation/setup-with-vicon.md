@@ -1,3 +1,7 @@
+---
+description: The beginning of indoor navigation.
+---
+
 # Setup with VICON
 
 ## Initial setup of VICON

@@ -1,3 +1,7 @@
+---
+description: Fighting global warming.
+---
+
 # RRT Algorithm
 
 The RRT procedure proceeds by constructing a special kind of graph called a tree, where every node is connected to a single parent and the tree is rooted at a given starting location. The following animation shows how the algorithm evolves to construct a tree in a two-dimensional configuration space containing obstacles.

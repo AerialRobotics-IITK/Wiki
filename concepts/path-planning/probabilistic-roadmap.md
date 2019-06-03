@@ -1,3 +1,7 @@
+---
+description: Checks all possible paths.
+---
+
 # Probabilistic Roadmap
 
 An alternative idea for dealing with these situations is to choose points in the configuration space randomly instead of uniformly, in the hope that we will choose a set of configurations that capture the underlying structure of the free space. This illustrates the basic idea of this algorithm on a 2D configuration space. On every iteration, the system chooses a configuration in the configuration space at random, and tests whether it is in free space using the collision check function.

@@ -1,5 +1,5 @@
 ---
-description: Welcome to the Aerial Robotics IITK Wiki!
+description: 'Hello, World! Welcome to our wiki.'
 ---
 
 # Introduction

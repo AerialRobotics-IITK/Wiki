@@ -1,6 +1,10 @@
+---
+description: 'O Robot, where art thou?'
+---
+
 # Estimation
 
-Here are the articles in this section:
+Pages in this section:
 
 {% page-ref page="vio/" %}
 

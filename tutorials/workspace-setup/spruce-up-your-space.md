@@ -4,8 +4,6 @@ description: Add some personal touches to your environment!
 
 # Spruce up your space
 
-
-
 {% hint style="warning" %}
 Work in Progress.
 {% endhint %}

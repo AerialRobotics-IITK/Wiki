@@ -1,3 +1,7 @@
+---
+description: Can you see the goal?
+---
+
 # Visibility Graph Analysis
 
 ![](../../.gitbook/assets/visibility1.png)
