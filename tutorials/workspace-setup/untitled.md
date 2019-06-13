@@ -13,6 +13,24 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
+## Time Sync with Windows 10
+
+After installing Ubuntu in dual boot with Windows 10 , the time is usually messed up in both the systems. The link below provides the details.
+
+{% embed url="http://ubuntuhandbook.org/index.php/2016/05/time-differences-ubuntu-1604-windows-10/" %}
+
+Or type the following command in your Ubuntu 16.04 Terminal
+
+```bash
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
+And then set the time on Linux and Windows manually.
+
+NOTE: For lower Ubuntu versions, edit the `/etc/default/rcS` file.
+
+
+
 ## Install basic tools
 
 ### Vim:

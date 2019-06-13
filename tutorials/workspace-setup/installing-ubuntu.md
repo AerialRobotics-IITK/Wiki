@@ -1,5 +1,5 @@
 ---
-description: Because Windows bad.
+description: The "Developer" OS
 ---
 
 # Installing Ubuntu

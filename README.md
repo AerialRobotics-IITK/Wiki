@@ -18,7 +18,7 @@ Here are the articles in this book:
 
 {% page-ref page="machine-learning/" %}
 
-{% page-ref page="hardware-integration.md" %}
+{% page-ref page="hardware-integration/" %}
 
 {% page-ref page="resources/" %}
 

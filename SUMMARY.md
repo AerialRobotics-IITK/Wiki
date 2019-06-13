@@ -74,7 +74,8 @@
 * [Computer Vision](computer-vision.md)
 * [Machine Learning](machine-learning/README.md)
   * [Datasets](machine-learning/datasets.md)
-* [Hardware Integration](hardware-integration.md)
+* [Hardware Integration](hardware-integration/README.md)
+  * [Miscellaneous](hardware-integration/miscellaneous.md)
 * [Resources](resources/README.md)
   * [Courses](resources/courses/README.md)
     * [Comparison of RRT, RRT\* and RRT\*-Smart](http://paper.ijcsns.org/07_book/201610/20161004.pdf)
@@ -93,4 +94,5 @@
     * [Programming](resources/useful-reading-links/programming.md)
     * [Robotics Hardware](resources/useful-reading-links/robotics-hardware.md)
     * [Miscellaneous and Awesome](resources/useful-reading-links/miscellaneous-and-awesome.md)
+  * [Online Purchase websites](resources/online-purchase-websites.md)
 
