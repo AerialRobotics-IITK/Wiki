@@ -76,6 +76,7 @@
   * [Datasets](machine-learning/datasets.md)
 * [Hardware Integration](hardware-integration/README.md)
   * [Miscellaneous](hardware-integration/miscellaneous.md)
+  * [Connections](hardware-integration/connections.md)
 * [Resources](resources/README.md)
   * [Courses](resources/courses/README.md)
     * [Comparison of RRT, RRT\* and RRT\*-Smart](http://paper.ijcsns.org/07_book/201610/20161004.pdf)
