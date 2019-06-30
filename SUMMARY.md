@@ -16,6 +16,7 @@
     * [Coding Standards](tutorials/how-to-write-a-ros-package/coding-standards.md)
     * [Transformations](tutorials/how-to-write-a-ros-package/transformations.md)
     * [Conversions](tutorials/how-to-write-a-ros-package/conversions.md)
+  * [Custom mavros message](tutorials/custom-mavros-message.md)
   * [Cheatsheets](tutorials/cheatsheets.md)
   * [Miscellaneous](tutorials/miscellaneous/README.md)
     * [Odroid XU4 Setup](tutorials/miscellaneous/odroid-xu4-setup.md)
