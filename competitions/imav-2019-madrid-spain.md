@@ -1,5 +1,5 @@
 ---
-description: This page contains codes and resources regarding IMAV 2019 Outdoor Challenge
+description: This page contains codes and resources for the IMAV 2019 Outdoor Challenge
 ---
 
 # IMAV 2019, Madrid, Spain
