@@ -97,4 +97,7 @@
     * [Robotics Hardware](resources/useful-reading-links/robotics-hardware.md)
     * [Miscellaneous and Awesome](resources/useful-reading-links/miscellaneous-and-awesome.md)
   * [Online Purchase websites](resources/online-purchase-websites.md)
+* [Competitions](competitions/README.md)
+  * [Inter-IIT TechMeet 8.0](competitions/inter-iit-techmeet-8.0.md)
+  * [IMAV 2019, Madrid, Spain](competitions/imav-2019-madrid-spain.md)
 

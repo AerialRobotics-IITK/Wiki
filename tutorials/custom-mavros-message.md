@@ -6,19 +6,16 @@ The aim is to send signals to servo connected to pixhawk, using ROS node.
 
 * In `mavros_msgs/msg` add custom msg file
 
-{% code-tabs %}
-{% code-tabs-item title="GripperServo.msg" %}
+{% code title="GripperServo.msg" %}
 ```text
 time frame_stamp		# Timestamp 
 float32 servo_setpoint
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Create `gripper_servo.cpp` in the path `mavros_extras/src/plugins/`. This is the receiver node that listen user input and publish to pixhawk.
 
-{% code-tabs %}
-{% code-tabs-item title="gripper\_servo.cpp" %}
+{% code title="gripper\_servo.cpp" %}
 ```cpp
 #include <mavros/mavros_plugin.h>
 #include <mavros_msgs/GripperServo.h>
@@ -69,13 +66,12 @@ private:
 #include <pluginlib/class_list_macros.h>
 PLUGINLIB_EXPORT_CLASS(mavros::extra_plugins::GripperServoPlugin, mavros::plugin::PluginBase)
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Edit `CMakeList.txt` at
 
-{% code-tabs %}
-{% code-tabs-item title="mavros\_msgs/CMakeList.txt" %}
+{% tabs %}
+{% tab title="mavros\_msgs/CMakeList.txt" %}
 ```
 add_message_files(
 ....
@@ -83,9 +79,9 @@ GripperServo.msg
 ....
 )
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="mavros\_extras/CMakeList.txt" %}
+{% tab title="mavros\_extras/CMakeList.txt" %}
 ```text
 add_library(
 ...
@@ -93,25 +89,22 @@ src/plugins/gripper_servo.cpp
 ...
 )
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 * Edit `mavros_plugins.xml` inside `mavros_extras/mavros_plugins.xml`
 
-{% code-tabs %}
-{% code-tabs-item title="mavros\_plugins.xml" %}
+{% code title="mavros\_plugins.xml" %}
 ```markup
 <class name="gripper_servo" type="mavros::extra_plugins::GripperServoPlugin" base_class_type="mavros::plugin::PluginBase">
   	<description>Send servo controls to FCU.</description>
 </class>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Edit `common.xml` inside `mavlink/message_definitions/v1.0/`
 
-{% code-tabs %}
-{% code-tabs-item title="common.xml" %}
+{% code title="common.xml" %}
 ```markup
 <message id="229" name="GRIPPER_SERVO">
    <description> Send gripper control generated from off board cobntroller to on board Pixhawk</description>
@@ -119,15 +112,13 @@ src/plugins/gripper_servo.cpp
    <field type="float" name="servo_setpoint">actuator controls</field>
 </message>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 ## **Inside px4**
 
 * Edit `common.xml` inside `Firmware/mavlink/include/mavlink/v2.0/message_definitions/` 
 
-{% code-tabs %}
-{% code-tabs-item title="common.xml" %}
+{% code title="common.xml" %}
 ```markup
  <!--Gripper servo control -->
 <message id="229" name="GRIPPER_SERVO">
@@ -136,8 +127,7 @@ src/plugins/gripper_servo.cpp
   <field type="float" name="servo_setpoint">actuator controls</field>
 </message>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 * Remove `common` and `standard` directories from `Firmware/mavlink/include/mavlink/v2.0`
 * Generate `standard` and `common` directories using `mavlink-generator` located in ros pkg[`mavlink/pymavlink`](https://github.com/AerialRobotics-IITK/mavlink-gbp-release/blob/ARIITK/mavgenerate.py)
@@ -172,8 +162,7 @@ set(
 
 1. Edit `mavlink_receiver.h` located at `Firmware/src/modules/mavlink/`
 
-{% code-tabs %}
-{% code-tabs-item title="mavlink\_receiver.h" %}
+{% code title="mavlink\_receiver.h" %}
 ```cpp
  #include <uORB/topics/gripper_servo.h>
 .....
@@ -184,8 +173,7 @@ class MavlinkReceiver
  	orb_advert_t _gripper_servo_pub{nullptr};
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 1. Edit `mavlink_receiver.cpp` located at `Firmware/src/modules/mavlink/`
 

@@ -16,8 +16,8 @@ This installation will install ROS Kinetic on the system.
 
 To install ROS, open the terminal and run the following:
 
-{% code-tabs %}
-{% code-tabs-item title="bash setup" %}
+{% tabs %}
+{% tab title="bash setup" %}
 ```bash
 # setup sources.list
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -40,9 +40,9 @@ source ~/.bashrc
 # fulfill dependencies
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="zsh setup" %}
+{% tab title="zsh setup" %}
 ```text
 # setup sources.list
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -65,8 +65,8 @@ source ~/.zshrc
 # fulfill dependencies
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="warning" %}
 If the above install fails, follow the instructions given here:
