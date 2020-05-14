@@ -8,17 +8,16 @@ Here are the articles in this book:
 
 [Tutorials](tutorials/)
 
-{% page-ref page="concepts/" %}
+[Concepts](concepts/)
 
-{% page-ref page="control-system/" %}
+[Control System](control-system/)
 
-{% page-ref page="estimation/" %}
+[Estimation](estimation/)
 
-{% page-ref page="computer-vision.md" %}
+[Computer Visiion](computer-vision.md)
 
-{% page-ref page="machine-learning/" %}
+[Machine Learning](machine-learning/)
 
-{% page-ref page="hardware-integration/" %}
+[Hardware Integration](hardware-integration)
 
-{% page-ref page="resources/" %}
-
+[Resources](resources/)
