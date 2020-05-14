@@ -1,14 +1,14 @@
 
 Refer to the Wiki above for detailed information regarding the project and assignments.
 
-[ROTORCRAFT](docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
+[Rotorcraft](docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
 
-[INTER-IIT](https://docs.google.com/presentation/d/15JQCeglxh4gMW0vWIgDPPF8rYcScEiSRiINqZVHpNE0/edit#slide=id.p3)
+[Inter-IIT](https://docs.google.com/presentation/d/15JQCeglxh4gMW0vWIgDPPF8rYcScEiSRiINqZVHpNE0/edit#slide=id.p3)
 
-[LINUX+GIT](https://docs.google.com/presentation/d/1KPGa-49XFCrWlBRLKL04LhY0gw5xKA6Eexpzu1QkOHY/edit#slide=id.g1e14af4804_1_81)
+[Linux+git](https://docs.google.com/presentation/d/1KPGa-49XFCrWlBRLKL04LhY0gw5xKA6Eexpzu1QkOHY/edit#slide=id.g1e14af4804_1_81)
 
-[AERIAL ROBOTICS](https://docs.google.com/presentation/d/1urhhu-BCSltQ9QCSFMuBtE4ckXMPMfLpFOiIZY1YMOY/edit#slide=id.p)
+[Aerial Robotics](https://docs.google.com/presentation/d/1urhhu-BCSltQ9QCSFMuBtE4ckXMPMfLpFOiIZY1YMOY/edit#slide=id.p)
 
 [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309_0_20)
 
-[AVIONICS](https://docs.google.com/presentation/d/1uEwSUcQViZwr0s7IRR3UJO4M-rfXotcJnbZww4TSOJY/edit#slide=id.p)
+[Avionics](https://docs.google.com/presentation/d/1uEwSUcQViZwr0s7IRR3UJO4M-rfXotcJnbZww4TSOJY/edit#slide=id.p)
