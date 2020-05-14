@@ -6,13 +6,13 @@ description: How to or how not to.
 
 Pages in this section:
 
-{% page-ref page="workspace-setup/" %}
+[Workspace setup](workspace-setup/)
 
-{% page-ref page="how-to-write-a-ros-package/" %}
+[How to write a ROS package](how-to-write-a-ros-package/)
 
-{% page-ref page="cheatsheets.md" %}
+[Cheatsheets](cheatsheets.md)
 
-{% page-ref page="miscellaneous/" %}
+[Miscellaneous](miscellaneous/)
 
-{% page-ref page="dump1.md" %}
+[Dump1](dump1.md)
 
