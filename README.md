@@ -6,7 +6,7 @@ description: 'Hello, World! Welcome to our wiki.'
 
 Here are the articles in this book:
 
-{% page-ref page="tutorials/" %}
+[Tutorials](tutorials/)
 
 {% page-ref page="concepts/" %}
 
