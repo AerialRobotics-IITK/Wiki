@@ -34,7 +34,7 @@ Download and run Rufus, a startup disk creator:
 {% embed url="https://rufus.ie/en/" caption="startup-disk-creator" %}
 
 Install Rufus, and upon starting the application should look like:  
-<img src="../../assets/rufus_en.png" height=400>
+<img src="../../.gitbook/assets/rufus_en.png" height=400>
 
 Insert the external flash drive, Rufus would automatically detect it as _Device_  
 Under _Boot Selection_ choose the ISO file downloaded above.  
@@ -45,7 +45,7 @@ Start the process.
 
 Reboot the system, keeping the startup disk connected, and Enter BIOS Menu.  
 Reboot your system, and while it turns on, before your laptop's brand's icon shows up. Repeatedly press the key (Keys to be pressed vary a lot, usually it is `F2`, confirm from ) until the BIOS Menu shows up, something like this:  
-<img src="../../assets/bios.jpg" height=400>
+<img src="../../.gitbook/assets/bios.jpg" height=400>
 
 ## Step 4b: Configuring BIOS
 
