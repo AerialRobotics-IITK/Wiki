@@ -26,10 +26,9 @@ The complete software stack is available on Github. It contains all the modules 
 
 ### General Overview of the modules used
 
-- **Active_Planner**: Main package for frontier based exploration and trajectory
+- **Active_Planner**: Main package for frontier based exploration and path-planning
 - **Box_Detector**: Detect the ARUCO Markers and global pose
-- **Broadcaster**: for Debugging (not used)
+- **Broadcaster**: for Debugging
 - **Detector_Msgs**: Custom messages
 - **Explorer**: Handle states of the UAV
 - **Interiit21**: Starter Package with Launch files
-- **RViz**: Debugging options
