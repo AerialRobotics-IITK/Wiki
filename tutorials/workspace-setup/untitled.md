@@ -69,9 +69,6 @@ Download it here:
 
 {% embed url="https://code.visualstudio.com" caption="" %}
 
-Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub. To install it, follow this page:
-
-{% embed url="https://flight-manual.atom.io/getting-started/sections/installing-atom/" caption="" %}
 
 Sublime Text is a proprietary cross-platform source code editor with a Python application programming interface. To install, follow this page:
 
