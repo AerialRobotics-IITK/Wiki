@@ -11,7 +11,7 @@ Robot Operating System \(ROS\) is robotics middleware. Although it is not an ope
 {% hint style="info" %}
 This installation will install ROS Kinetic on the system.
 
-* Requires Ubuntu 16.04 LTS
+* Requires Ubuntu 20.04 LTS
 {% endhint %}
 
 To install ROS, open the terminal and run the following:
@@ -23,23 +23,24 @@ To install ROS, open the terminal and run the following:
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 # setup keys
-sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 
 # installation
-sudo apt-get update
-sudo apt-get install ros-kinetic-desktop-full
+sudo apt update
+sudo apt install ros-noetic-desktop-full
 
 #initialize rosdep
+sudo apt install python3-rosdep #if you have not yet installed rosdep,run this line otherwise skip
 sudo rosdep init
 rosdep update
 
 # setup environment
-echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 # fulfill dependencies
-sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
-```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential  ```
 {% endtab %}
 
 {% tab title="zsh setup" %}
@@ -48,13 +49,15 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 # setup keys
-sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 
 # installation
-sudo apt-get update
-sudo apt-get install ros-kinetic-desktop-full
+sudo apt update
+sudo apt install ros-noetic-desktop-full
 
 #initialize rosdep
+sudo apt install python3-rosdep #if you have not yet installed rosdep,run this line otherwise skip
 sudo rosdep init
 rosdep update
 
@@ -63,8 +66,8 @@ echo "source /opt/ros/kinetic/setup.bash" >> ~/.zshrc
 source ~/.zshrc
 
 # fulfill dependencies
-sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
-```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential  ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -72,5 +75,5 @@ sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool
 If the above install fails, follow the instructions given here:
 {% endhint %}
 
-{% embed url="http://wiki.ros.org/kinetic/Installation/Ubuntu​" caption="" %}
+{% embed url="https://wiki.ros.org/Installation/Ubuntu​" caption="" %}
 
