@@ -56,6 +56,12 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 sudo apt update
 sudo apt install ros-noetic-desktop-full
 
+# minimal installation for microcontrollers 
+sudo apt install ros-noetic-ros-base  # skip this if ros-noetic-desktop version is being installed
+
+# install a specific package
+sudo apt install ros-noetic-PACKAGE # e.g sudo apt install ros-noetic-slam-gmapping
+
 #initialize rosdep
 sudo apt install python3-rosdep #if you have not yet installed rosdep,run this line otherwise skip
 sudo rosdep init
