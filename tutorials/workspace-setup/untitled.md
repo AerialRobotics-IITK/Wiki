@@ -87,12 +87,12 @@ ssh-add ~/.ssh/id
 ```
 Once you've configured your identity, you can configure Git further to suit your workflow.
 
-**Full Guide to Ubuntu Customization Desktop**
+### Full Guide to Ubuntu Customization Desktop
 Customizing is adjusting the appearance that makes the system comfortable and pleasant for daily usage.The Linux system has introduced several desktop environments for the Ubuntu operating system. All of them are well customized and keep the user’s preferences in mind. You can follow the steps given in this website to customise your Ubuntu.
 
 {% embed url="https://linuxhint.com/desktop-customization-ubuntu/" caption="" %}
 
-**Install Codecs & Microsoft Fonts**
+### Install Codecs & Microsoft Fonts
 Codecs & Microsoft fonts don’t come pre-installed on Ubuntu due to licensing issues. Codecs allow Ubuntu to play certain media formats. Microsoft fonts improve the compatibility of LibreOffice with documents created with Microsoft Word (doc, docx etc) and also provide you such popular fonts as Arial, Comic Sans, Times New Roman.
 
 We can install codecs and Microsoft fonts with the following command:
@@ -118,8 +118,18 @@ Sublime Text is a proprietary cross-platform source code editor with a Python ap
 
 **How To Install The Latest Version of Eclipse on Ubuntu**
 
-Eclipse is one such IDE that is primarily used for Java development. It can also be used with other languages, such as — C++, PHP, etc. Other languages support can be added on top of an existing installation or they can be installed as separate Eclipse packages.
+Eclipse is an integrated development environment (IDE) used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It can be used with languages, such as — Java,C++, PHP, etc. Other languages support can be added on top of an existing installation or they can be installed as separate Eclipse packages.
+You can  use snap package to install Eclipse. Snap comes preinstalled in Ubuntu 20.04,19.10,18.10,16.04 and for older versions like 14.04 and 15.10, you can use the following command in the terminal.
+```bash
+$ sudo apt update
+$ sudo apt install snapd
+```
+Then use,
 ```bash
 sudo snap install eclipse --classic
 ```
+Or you can install Eclipse from the official package by following these steps in this website.
+
+{% embed url="https://itsfoss.com/install-latest-eclipse-ubuntu/" caption="" %}
+
 
