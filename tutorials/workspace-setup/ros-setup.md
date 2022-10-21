@@ -81,5 +81,5 @@ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator 
 If the above install fails, follow the instructions given here:
 {% endhint %}
 
-{% embed url="https://wiki.ros.org/Installation/Ubuntu​" caption="" %}
+{% embed url="https://wiki.ros.org/noetic/Installation/Ubuntu​" caption="" %}
 
