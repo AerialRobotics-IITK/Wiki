@@ -72,7 +72,14 @@ echo "source /opt/ros/kinetic/setup.bash" >> ~/.zshrc
 source ~/.zshrc
 
 # fulfill dependencies
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential  ```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+
+# single liner installation for gazebo
+curl -sSL http://get.gazebosim.org | sh
+
+# single liner installation for meshlab
+sudo apt -y install meshlab
+ ```
 
 {% endtab %}
 {% endtabs %}
@@ -82,4 +89,7 @@ If the above install fails, follow the instructions given here:
 {% endhint %}
 
 {% embed url="https://wiki.ros.org/noetic/Installation/Ubuntu​" caption="" %}
+
+
+
 
