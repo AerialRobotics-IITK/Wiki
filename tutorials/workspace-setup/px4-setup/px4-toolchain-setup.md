@@ -11,7 +11,14 @@ To download the PX4 Firmware, follow the steps shown below
 sudo apt-get install python python3 python-pip python3-pip
 sudo apt-get update
 sudo apt-get upgrade
-pip3 install --user pyserial empy toml numpy pandas jinja2 pyyaml pyros-genmsg packaging  
+pip3 install kconfiglib
+pip3 install pyserial 
+pip3 install --user empy 
+pip3 install --user toml 
+pip3 install --user numpy 
+pip3 install --user pandas 
+pip3 install --user jinja2 
+pip3 install --user pyyaml pyros-genmsg packaging  
 sudo apt-get install libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly -y
 sudo apt-get install libprotobuf-dev libprotoc-dev protobuf-compiler libeigen3-dev libxml2-utils python3-rospkg python3-jinja2
 sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras ros-noetic-mavlink python3-catkin-tools python3-rosinstall-generator
