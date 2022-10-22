@@ -22,7 +22,8 @@ sudo bash ./install_geographiclib_datasets.sh
 After that:
 ```bash 
 cd ~
-mkdir -p ros/firmware_ws/src && cd ros/firmware_ws
+mkdir -p ros/firmware_ws/src
+cd ros/firmware_ws
 catkin init
 cd src
 git clone https://github.com/PX4/PX4-Autopilot.git --recursive
