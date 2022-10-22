@@ -18,7 +18,7 @@ pip3 install --user toml
 pip3 install --user numpy 
 pip3 install --user pandas 
 pip3 install --user jinja2 
-pip3 install --user pyyaml pyros-genmsg packaging  
+pip3 install --userpyyaml pyros-genmsg packaging  
 sudo apt-get install libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly -y
 sudo apt-get install libprotobuf-dev libprotoc-dev protobuf-compiler libeigen3-dev libxml2-utils python3-rospkg python3-jinja2
 sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras ros-noetic-mavlink python3-catkin-tools python3-rosinstall-generator
