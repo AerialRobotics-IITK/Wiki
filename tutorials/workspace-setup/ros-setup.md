@@ -9,7 +9,7 @@ Robot Operating System \(ROS\) is robotics middleware. Although it is not an ope
 {% embed url="http://www.ros.org" caption="" %}
 
 {% hint style="info" %}
-This installation will install ROS Kinetic on the system.
+This installation will install ROS Noetic on the system.
 
 * Requires Ubuntu 20.04 LTS
 {% endhint %}
@@ -68,7 +68,7 @@ sudo rosdep init
 rosdep update
 
 # setup environment
-echo "source /opt/ros/kinetic/setup.bash" >> ~/.zshrc
+echo "source /opt/ros/noetic/setup.bash" >> ~/.zshrc
 source ~/.zshrc
 
 # fulfill dependencies
