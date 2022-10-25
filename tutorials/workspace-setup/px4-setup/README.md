@@ -6,9 +6,9 @@ description: Installing firmware for the PixHawk.
 
 ## Step 1: Install QGC
 
-Download the QGroundControl package from the following link:
+Download the QGroundControl AppImage from the following link:
 
-{% embed url="https://s3-us-west-2.amazonaws.com/qgroundcontrol/builds/master/QGroundControl.tar.bz2" caption="" %}
+{% embed url="https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage" caption="" %}
 
 Extract the downloaded archive by running the following in the terminal
 
@@ -16,12 +16,15 @@ Extract the downloaded archive by running the following in the terminal
 First navigate to the folder where the download is stored.
 {% endhint %}
 
-```bash
-tar jxf QGroundControl.tar.bz2
-cd qgroundcontrol
-./qgroundcontrol-start.sh
-```
+Go to the folder where the AppImage has been downloaded by:
 
+```bash
+cd ~
+cd Downloads/
+chmod +x ./QGroundControl.AppImage
+./QGroundControl.AppImage  (or double click)
+```
+If everything has been done correctly, you should see a window of the world showing.
 ## Step 2: Install the Toolchain
 
 Follow the instructions here to install the PX4 toolchain:
@@ -41,6 +44,8 @@ cd ~/src
 git clone https://github.com/PX4/Firmware.git
 cd Firmware
 
+
+#The following is what you have to do when you are going to work on a board.... Wait for it   :)
 # building
 make px4fmu-v2_default
 
