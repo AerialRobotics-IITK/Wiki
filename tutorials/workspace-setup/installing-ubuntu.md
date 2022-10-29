@@ -19,7 +19,7 @@ You might need to restart the computer a few times in the process and press F12 
 
 ## I. Download the .iso file
 
-> The latest stable version of Ubuntu that can support all the software we use is 20.04.
+The latest stable version of Ubuntu that can support all the software we use is 20.04.
 Steps:
 1.	Go the ubuntu official website.
 2.	Ubuntu desktop (for 20.04) will be there under ‘download’.
