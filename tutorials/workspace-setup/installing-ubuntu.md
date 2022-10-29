@@ -36,11 +36,7 @@ The file is named **ubuntu-16.04.5-live-server-amd64.iso**.
 
 ## II. Load it onto a BOOTABLE USB drive
 Steps: 
-1.	For this, you’ll require this thing called ‘Rufus’.
-
-
-
-{% embed url="https://rufus.ie/en\_IE.html" caption="" %}
+1.	For this, you’ll require this thing called ‘Rufus’.{% embed url="https://rufus.ie/en\_IE.html" caption="" %}
 2.	Download it. Run the file.
 3.	Plug-in the USB. There will be a pop-up window. That’s Rufus.
 4.	Select the ISO file under ‘Boot Selection’. Hit start.
