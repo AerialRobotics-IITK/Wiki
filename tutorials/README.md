@@ -10,7 +10,7 @@ Pages in this section:
 
 {% page-ref page="how-to-write-a-ros-package/" %}
 
-{% page-ref page="cheatsheets.md" %}
+{% page-ref page="cheatsheets/" %}
 
 {% page-ref page="miscellaneous/" %}
 
