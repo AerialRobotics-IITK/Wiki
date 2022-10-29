@@ -10,7 +10,7 @@ description: The "Developer" OS
 4. 	DVD drive or USB port
 5. 	At least a 4GB USB drive. Make sure to backup any existing data on the USB drive because any data on it will get ERASED in the process.
 #### Note:	
-You might need to restart the computer a few times in the process and press F12 repeatedly while you do that (to get to boot menu). This can be boring and tiresome so do things carefully step by step. Hehe.
+You might need to restart the computer a few times in the process and press F12 repeatedly while you do that (so as to get to the boot menu, for instance). This can be boring and tiresome so do things carefully step by step. Hehe.
 •	Here is a tutorial which will help: https://phoenixnap.com/kb/install-ubuntu-20-04
 •	Go through the overview first.
 
