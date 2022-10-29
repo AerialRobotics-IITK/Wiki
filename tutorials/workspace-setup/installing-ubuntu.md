@@ -4,13 +4,13 @@ description: The "Developer" OS
 
 # Installing Ubuntu
   System requirements (recommended):
-•	2 GHz dual-core processor
-•	4GB memory
-•	25GB available disk space for storage (less if installing the minimal version)
-•	DVD drive or USB port
-•	At least a 4GB USB drive
-  Make sure to backup any existing data on the USB drive because any data on it will get ERASED in the process.
-•	You might need to restart the computer a few times in the process and press F12 repeatedly while you do that (to get to boot menu). This can be boring and tiresome so do things carefully step by step. Hehe.
+1.	2 GHz dual-core processor
+2.	4GB memory
+3.	25GB available disk space for storage (less if installing the minimal version)
+4. 	DVD drive or USB port
+5. 	At least a 4GB USB drive. Make sure to backup any existing data on the USB drive because any data on it will get ERASED in the process.
+#### Note:	
+You might need to restart the computer a few times in the process and press F12 repeatedly while you do that (to get to boot menu). This can be boring and tiresome so do things carefully step by step. Hehe.
 •	Here is a tutorial which will help: https://phoenixnap.com/kb/install-ubuntu-20-04
 •	Go through the overview first.
 
