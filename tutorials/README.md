@@ -14,12 +14,12 @@ Pages in this section:
 [how-to-write-a-ros-package](how-to-write-a-ros-package/)
 {% endcontent-ref %}
 
-{% content-ref url="https://github.com/AerialRobotics-IITK/Wiki/blob/master/tutorials/cheatsheets/README.md" %}
-[https://github.com/AerialRobotics-IITK/Wiki/blob/master/tutorials/cheatsheets/README.md](https://github.com/AerialRobotics-IITK/Wiki/blob/master/tutorials/cheatsheets/README.md)
-{% endcontent-ref %}
-
 {% content-ref url="miscellaneous/" %}
 [miscellaneous](miscellaneous/)
+{% endcontent-ref %}
+
+{% content-ref url="cheatsheets/" %}
+[cheatsheets](cheatsheets/)
 {% endcontent-ref %}
 
 {% content-ref url="dump1.md" %}
