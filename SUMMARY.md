@@ -31,7 +31,6 @@
     * [ArUco ROS](tutorials/miscellaneous/using-aruco\_ros.md)
     * [TF2](tutorials/miscellaneous/tf2.md)
   * [Reference wiki links](tutorials/dump1.md)
-  * [Page 1](tutorials/page-1.md)
 * [Concepts](concepts/README.md)
   * [Quaternions](concepts/quaternions/README.md)
     * [theory](concepts/quaternions/dump2.md)

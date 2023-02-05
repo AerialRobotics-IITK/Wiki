@@ -1,5 +1,5 @@
 ---
-description: Hello, World! Welcome to our wiki.
+description: Hello, World! Welcome to the ARIITK Wiki.
 ---
 
 # Introduction

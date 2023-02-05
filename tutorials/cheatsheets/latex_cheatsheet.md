@@ -86,3 +86,10 @@
 | `\bigcup` | $\bigcup$ | `\bigcap` | $\bigcap$ |
 
 $\arccos$, $\arcsin$, $\arctan$, $\arg$, $\cos$, $\cosh$, $\cot$, $\coth$, $\deg$, $\det$, $\dim$, $\exp$, $\gcd$, $\hom$, $\inf$, $\injlim$, $\lg$, $\lim$, $\liminf$, $\limsup$, $\ln$, $\log$, $\max$, $\min$, $\Pr$, $\projlim$, $\sec$, $\sin$, $\sinh$, $\sup$
+
+If you want spacing in Math mode (within equations), LaTeX provides the following four commands for use in math mode:
+
+1. `\;` - a thick space.
+2. `\:` - a medium space.
+3. `\,` - a thin space.
+4. `\!` - a negative thin space.

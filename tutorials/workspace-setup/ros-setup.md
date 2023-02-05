@@ -6,18 +6,21 @@ description: How to install ROS.
 
 Robot Operating System (ROS) is robotics middleware. Although it is not an operating system, it provides services designed for a heterogeneous computer cluster such as hardware abstraction, low-level device control, implementation of commonly used functionality, message-passing between processes, and package management.
 
-{% embed url="http://www.ros.org" %}
+{% embed url="https://jfrog.com/connect/post/what-is-ros-and-why-its-needed/" %}
 
 {% hint style="info" %}
 This installation will install ROS Noetic on the system.
 
 * Requires Ubuntu 20.04 LTS
+
+If you don't have dual booted, you can try using VirtualBox or similar. Checkout installation of VirtualBox in [Spruce up your space](spruce-up-your-space.md)
 {% endhint %}
 
 To install ROS, open the terminal and run the following:
 
 {% tabs %}
 {% tab title="bash setup" %}
+{% code overflow="wrap" lineNumbers="true" %}
 ````bash
 # setup sources.list
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -41,12 +44,13 @@ source ~/.bashrc
 
 # fulfill dependencies
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential  ```
+````
+{% endcode %}
+{% endtab %}
 
-</div>
-
-<div data-gb-custom-block data-tag="tab" data-title='zsh setup'>
-
-```text
+{% tab title="zsh setup" %}
+{% code overflow="wrap" lineNumbers="true" %}
+```bash
 # setup sources.list
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -75,18 +79,23 @@ source ~/.zshrc
 
 # fulfill dependencies
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-
-# single liner installation for gazebo
-curl -sSL http://get.gazebosim.org | sh
-
-# single liner installation for meshlab
-sudo apt -y install meshlab
-````
+```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
-{% hint style="warning" %}
-If the above install fails, follow the instructions given here:
-{% endhint %}
+{% code title="For relevant softwares" %}
+```bash
+# installation for gazebo
+curl -sSL http://get.gazebosim.org | sh
+sudo apt-get install gazebo11
 
-{% embed url="https://wiki.ros.org/noetic/Installation/Ubuntu​" %}
+# single liner installation for meshlab
+sudo apt -y install meshlab
+```
+{% endcode %}
+
+{% hint style="warning" %}
+If the above install fails, follow the instructions given here:\
+[https://wiki.ros.org/noetic/Installation/Ubuntu#Ubuntu\_install\_of\_ROS\_Noetic](https://wiki.ros.org/noetic/Installation/Ubuntu#Ubuntu\_install\_of\_ROS\_Noetic)
+{% endhint %}
