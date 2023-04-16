@@ -70,7 +70,6 @@ sudo apt install ros-noetic-PACKAGE # e.g sudo apt install ros-noetic-slam-gmapp
 
 #initialize rosdep
 sudo apt install python3-rosdep #if you have not yet installed rosdep,run this line otherwise skip
-sudo apt upgrade
 sudo rosdep init
 rosdep update
 
@@ -80,7 +79,7 @@ source ~/.zshrc
 
 # fulfill dependencies
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-
+```
 {% endcode %}
 {% endtab %}
 {% endtabs %}
@@ -92,7 +91,7 @@ curl -sSL http://get.gazebosim.org | sh
 sudo apt-get install gazebo11
 
 # single liner installation for meshlab
-sudo apt -y install mesh
+sudo apt -y install meshlab
 ```
 {% endcode %}
 
