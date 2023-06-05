@@ -26,3 +26,6 @@ Here are the articles in this section:
 [px4-setup](px4-setup/)
 {% endcontent-ref %}
 
+{% content-ref url="ardupilot-setup.md" %}
+[ardupilot-setup.md](ardupilot-setup.md)
+{% endcontent-ref %}
