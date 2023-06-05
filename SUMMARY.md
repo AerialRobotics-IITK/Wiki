@@ -10,6 +10,7 @@
     * [ROS Setup](tutorials/workspace-setup/ros-setup.md)
     * [PX4 Setup](tutorials/workspace-setup/px4-setup/README.md)
       * [PX4 Toolchain Setup](tutorials/workspace-setup/px4-setup/px4-toolchain-setup.md)
+    * [Ardupilot Setup](tutorials/workspace-setup/ardupilot-setup.md)
   * [How to Write a ROS Package](tutorials/how-to-write-a-ros-package/README.md)
     * [ROS Package](tutorials/how-to-write-a-ros-package/ros-package.md)
     * [Node Handles, Parameters, and Topics](tutorials/how-to-write-a-ros-package/node-handles-parameters-and-topics.md)
