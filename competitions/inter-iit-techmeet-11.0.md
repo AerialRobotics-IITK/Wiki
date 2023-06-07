@@ -20,7 +20,7 @@ This file contains our architecture and approach to the problem statement:
 
 This file contains the slides presented after the competition:
 
-{% file src="../.gitbook/assets/11_Presentation.pptx" %}
+{% file src="../.gitbook/assets/11_Presentation.pdf" %}
 
 #### Software Stack
 
