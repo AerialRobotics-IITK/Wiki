@@ -26,7 +26,7 @@ The complete software stack is available on Github. It contains all the modules 
 
 * [https://github.com/AerialRobotics-IITK/imav2019](https://github.com/AerialRobotics-IITK/imav2019)
 
-General Overview of the modules used:
+ #### General Overview of the modules used:
 
 * **Planner**: A Finite State Machine implementation using the Boost C++ libraries for decision making, state transitions and actions during the mission.
 * **Detector**: A detection and pose estimation module to detect the colored mailboxes in the field.
