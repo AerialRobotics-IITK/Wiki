@@ -103,5 +103,7 @@
   * [Online Purchase websites](resources/online-purchase-websites.md)
 * [Competitions](competitions/README.md)
   * [Inter-IIT TechMeet 8.0](competitions/inter-iit-techmeet-8.0.md)
+  * [Inter-IIT TechMeet 9.0](competitions/inter-iit-techmeet-9.0.md)
   * [IMAV 2019, Madrid, Spain](competitions/imav-2019-madrid-spain.md)
+  * [Inter-IIT TechMeet 10.0](competitions/inter-iit-techmeet-10.0.md)
   * [Inter-IIT TechMeet 11.0](competitions/inter-iit-techmeet-11.0.md)
