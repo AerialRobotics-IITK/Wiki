@@ -11,6 +11,8 @@ SITL + ArduPilot + Gazebo + ROS Camera Plugin (Software In Loop Simulation Inter
 
 ### Dependencies for building packages
 ````
+nano ~/.bashrc
+alias python=python3 #Add this line on top of .bashrc file
 sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 ````
 
@@ -26,7 +28,7 @@ cd ~/
 
 wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
 
-chmod a+x install_geographiclib_datasets.sh
+sudo chmod a+x install_geographiclib_datasets.sh
 
 ./install_geographiclib_datasets.sh
 ````
