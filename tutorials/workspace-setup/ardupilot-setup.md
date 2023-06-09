@@ -145,6 +145,11 @@ Set Path of Gazebo Worlds (Adapt the path to where to clone the repo)
 ````
 echo 'export GAZEBO_RESOURCE_PATH=~/ardupilot_gazebo/worlds:${GAZEBO_RESOURCE_PATH}' >> ~/.bashrc
 ````
+Set Path of Ardupilot
+```
+export PATH=$PATH:$HOME/ardupilot/Tools/autotest
+export PATH=/usr/lib/ccache:$PATH
+```
 
 Reload the path (log-out and log-in to make permanent):
 
