@@ -113,7 +113,7 @@ This concludes the first step SITL Ardupilot installation.
 ````
 cd ~/
 
-git clone https://github.com/r0ch1n/ardupilot_gazebo
+git clone https://github.com/AerialRobotics-IITK/ardupilot_gazebo
 
 cd ardupilot_gazebo
 
