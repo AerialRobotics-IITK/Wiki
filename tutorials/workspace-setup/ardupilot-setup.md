@@ -11,9 +11,7 @@ SITL + ArduPilot + Gazebo + ROS Camera Plugin (Software In Loop Simulation Inter
 
 ### Dependencies for building packages
 ````
-nano ~/.bashrc
-alias python=python3 #Add this line on top of .bashrc file
-sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 ````
 
 ## MAVROS installation :
@@ -40,7 +38,7 @@ sudo apt-get install ros-noetic-rqt ros-noetic-rqt-common-plugins ros-noetic-rqt
 
 ### Install catkin tools
 ````
-sudo apt-get install python-catkin-tools
+sudo apt-get install python3-catkin-tools
 ````
 
 Now that we have everything correctly installed we can begin our system configuration
