@@ -17,3 +17,7 @@ Pages in this section:
 {% content-ref url="latex_cheatsheet.md" %}
 [latex\_cheatsheet.md](latex\_cheatsheet.md)
 {% endcontent-ref %}
+
+{% content-ref url="markdown-cheatsheet.md" %}
+[markdown-cheatsheet.md](markdown-cheatsheet.md)
+{% endcontent-ref %}

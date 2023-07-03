@@ -22,6 +22,7 @@
     * [CMakeCheatsheet](tutorials/cheatsheets/cmake\_cheatsheet.md)
     * [GitCheatsheet](tutorials/cheatsheets/git\_cheatsheets.md)
     * [LatexCheatsheet](tutorials/cheatsheets/latex\_cheatsheet.md)
+    * [Markdown Cheatsheet](tutorials/cheatsheets/markdown-cheatsheet.md)
   * [Miscellaneous](tutorials/miscellaneous/README.md)
     * [Odroid XU4 Setup](tutorials/miscellaneous/odroid-xu4-setup.md)
     * [Simulation using Offboard Control](tutorials/miscellaneous/simulation-using-offboard-control/README.md)
