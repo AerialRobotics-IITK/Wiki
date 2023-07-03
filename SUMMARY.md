@@ -56,6 +56,7 @@
     * [ROS](https://docs.google.com/presentation/d/1lUvV41uaQqdtztrlgkrif68w\_EaiigFQHx-20KBLS0M/edit#slide=id.g1e277ae309\_0\_20)
     * [Rotorcraft](https://docs.google.com/presentation/d/1TMbI3keAjQU01uiV6TkL2K\_ZnNua6E8ecNHpH-NTFwI/edit#slide=id.p)
     * [Software Training](https://github.com/RoboJackets/software-training)
+* [Connecting lidar-lite through I2C](connecting-lidar-lite-through-i2c.md)
 * [Control System](control-system/README.md)
   * [Model Predictive Control](control-system/model-predictive-control/README.md)
     * [System Identification](control-system/model-predictive-control/system-identification.md)
@@ -107,3 +108,11 @@
   * [IMAV 2019, Madrid, Spain](competitions/imav-2019-madrid-spain.md)
   * [Inter-IIT TechMeet 10.0](competitions/inter-iit-techmeet-10.0.md)
   * [Inter-IIT TechMeet 11.0](competitions/inter-iit-techmeet-11.0.md)
+
+## Group 1
+
+* [Page 2](group-1/page-2.md)
+
+***
+
+* [Page 2](page-2.md)
