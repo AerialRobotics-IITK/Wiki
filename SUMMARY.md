@@ -110,11 +110,3 @@
   * [IMAV 2019, Madrid, Spain](competitions/imav-2019-madrid-spain.md)
   * [Inter-IIT TechMeet 10.0](competitions/inter-iit-techmeet-10.0.md)
   * [Inter-IIT TechMeet 11.0](competitions/inter-iit-techmeet-11.0.md)
-
-## Group 1
-
-* [Page 2](group-1/page-2.md)
-
-***
-
-* [Page 2](page-2.md)
