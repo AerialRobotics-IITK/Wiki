@@ -14,7 +14,7 @@
 * [Undo](git\_cheatsheets.md#undo)
 * [Git Flow](git\_cheatsheets.md#git-flow)
 
-***
+
 
 ### Search
 
@@ -36,7 +36,7 @@ $ git log -S 'keyword'
 $ git log -S 'keyword' --pickaxe-regex
 ```
 
-***
+
 
 ### Commit History
 
@@ -64,7 +64,7 @@ $ git log --oneline <origin/master>..<remote/master> --left-right
 $ git blame <file>
 ```
 
-***
+
 
 ### Move / Rename
 
@@ -76,7 +76,7 @@ Rename Index.txt to Index.html
 $ git mv Index.txt Index.html
 ```
 
-***
+
 
 ### Branches & Tags
 
@@ -349,7 +349,7 @@ squash <commit_id2>
 squash <commit_id3>
 ```
 
-***
+
 
 ### Undo
 
@@ -409,4 +409,3 @@ $ git add .
 $ git commit -m "remove xyz file"
 ```
 
-***
