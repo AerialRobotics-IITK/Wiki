@@ -25,17 +25,16 @@ description: Links to our GitHub Wiki and similarly relevant sites
   2. [Changes in launch files](https://github.com/AerialRobotics-IITK/Wiki/wiki/launch-files)​
 * Simulation using offboard control
   1. ​[how the simulation works with SITL(software in the loop)](https://github.com/AerialRobotics-IITK/Wiki/wiki/Gazebo-Simulation-with-iris)​
-  2. ​[Offboard control example](https://dev.px4.io/en/ros/mavros\_offboard.html)​
-  3. ​[ROS with Gazebo Simulation](https://dev.px4.io/en/simulation/ros\_interface.html)​
+  2. ​[ROS with Gazebo Simulation](https://dev.px4.io/en/simulation/ros\_interface.html)​
 * ​[Resources](https://github.com/AerialRobotics-IITK/Wiki/wiki/Resources)​
   * ​[Lectures](https://github.com/AerialRobotics-IITK/Wiki/wiki/Lecture-Slides)​
   * ​[References](https://github.com/AerialRobotics-IITK/Wiki/wiki/References)​
   * ​[Useful Repositories](https://github.com/AerialRobotics-IITK/Wiki/wiki/Useful-Repositories)​
 * Sensor fusion
   * [Introduction to AI in robotics](https://classroom.udacity.com/courses/cs373)​
-  * ​[How a kalman filter works](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)​
+  * ​[How a Kalman filter works](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)​
   * ​[DCM Tutorial 1](http://www.starlino.com/wp-content/uploads/data/dcm\_tutorial/Starlino\_DCM\_Tutorial\_01.pdf)​
   * ​[DCM Tutorial 2](http://www.starlino.com/dcm\_tutorial.html)​
-  * ​[AHRS ](http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)[Imu](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
+  * ​[AHRS ](http://x-io.co.uk/open-source-imu-and-ahrs-algorithms/)[IMU](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)
   * ​[MATLAB KALMAN FILTER](https://www.youtube.com/watch?v=mwn8xhgNpFY\&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr)​
 
