@@ -37,3 +37,7 @@ Here are the articles in this book:
 {% content-ref url="resources/" %}
 [resources](resources/)
 {% endcontent-ref %}
+
+{% content-ref url="setting-up-offboard-mission/" %}
+[setting-up-offboard-mission](setting-up-offboard-mission/)
+{% endcontent-ref %}
