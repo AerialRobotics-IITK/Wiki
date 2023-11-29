@@ -29,3 +29,7 @@ Here are the articles in this section:
 {% content-ref url="ardupilot-setup.md" %}
 [ardupilot-setup.md](ardupilot-setup.md)
 {% endcontent-ref %}
+
+{% content-ref url="installing-ground-control-station/" %}
+[installing-ground-control-station](installing-ground-control-station/)
+{% endcontent-ref %}

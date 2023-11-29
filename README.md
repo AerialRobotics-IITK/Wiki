@@ -38,6 +38,10 @@ Here are the articles in this book:
 [resources](resources/)
 {% endcontent-ref %}
 
+{% content-ref url="competitions/" %}
+[competitions](competitions/)
+{% endcontent-ref %}
+
 {% content-ref url="setting-up-offboard-mission/" %}
 [setting-up-offboard-mission](setting-up-offboard-mission/)
 {% endcontent-ref %}

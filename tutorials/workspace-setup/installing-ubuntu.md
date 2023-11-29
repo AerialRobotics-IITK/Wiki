@@ -30,9 +30,7 @@ Steps to unallocate space on windows
 
 ## Create a bootable USB drive
 
-{% embed url="https://rufus.ie/en_IE.html" %}
-Rufus Official Site for downloading. Rufus helps you burn ISO on your drives
-{% endembed %}
+{% embed url="https://rufus.ie/en/" %}
 
 Install Rufus, and upon starting the application should look like:
 

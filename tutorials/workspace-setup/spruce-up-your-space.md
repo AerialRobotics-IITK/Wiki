@@ -39,11 +39,3 @@ You can check out how to get started here:
 ## ZSH with PowerLevel10K:
 
 {% embed url="https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0" %}
-
-{% embed url="https://www.triology.de/en/blog-entries/zsh-with-powerlevel9k" %}
-Left for legacy reasons
-{% endembed %}
-
-## GNOME:
-
-{% embed url="https://itsfoss.com/how-to-install-gnome-in-ubuntu-14-04/" %}

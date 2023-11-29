@@ -54,7 +54,7 @@ Finally, if you have been successful, you should see a drone hovering in the mid
 roslaunch px4 mavros_posix_sitl.launch
 ```
 
-
+***
 
 > Do **NOT** use the convenience Bash scripts provided on the website
 

@@ -7,14 +7,12 @@
 #### Index
 
 * [Commit History](git\_cheatsheets.md#commit-history)
-* [Move / Rename](git\_cheatsheets.md#move--rename)
-* [Branches & Tags](git\_cheatsheets.md#branches--tags)
-* [Update & Publish](git\_cheatsheets.md#update--publish)
-* [Merge & Rebase](git\_cheatsheets.md#merge--rebase)
+* [Move / Rename](git\_cheatsheets.md#move-rename)
+* [Branches & Tags](git\_cheatsheets.md#branches-and-tags)
+* [Merge & Rebase](git\_cheatsheets.md#merge-and-rebase)
 * [Undo](git\_cheatsheets.md#undo)
-* [Git Flow](git\_cheatsheets.md#git-flow)
 
-
+***
 
 ### Search
 
@@ -36,7 +34,7 @@ $ git log -S 'keyword'
 $ git log -S 'keyword' --pickaxe-regex
 ```
 
-
+***
 
 ### Commit History
 
@@ -64,7 +62,7 @@ $ git log --oneline <origin/master>..<remote/master> --left-right
 $ git blame <file>
 ```
 
-
+***
 
 ### Move / Rename
 
@@ -76,7 +74,7 @@ Rename Index.txt to Index.html
 $ git mv Index.txt Index.html
 ```
 
-
+***
 
 ### Branches & Tags
 
@@ -349,7 +347,7 @@ squash <commit_id2>
 squash <commit_id3>
 ```
 
-
+***
 
 ### Undo
 
@@ -409,3 +407,4 @@ $ git add .
 $ git commit -m "remove xyz file"
 ```
 
+***

@@ -45,7 +45,7 @@ transform_broadcaster_.sendTransform(
 
 ### minkindr (aslam::Transformation)
 
-Please use the [**minkindr\_conversions**](https://github.com/ethz-asl/minkindr\_ros/minkindr\_conversions) package in the [minkindr\_ros](https://github.com/ethz-asl/minkindr\_ros) repo. This also wraps some of the Eigen/TF conversions for common datatypes (`Eigen::Quaterniond`, `Eigen::Vector3d`), so it is a viable alternative to {tf,eigen}\_conversions in most cases. It also transforms minkindr Transformations back and forth to both messages and TF.
+Please use the [**minkindr\_conversions** ](https://github.com/ethz-asl/minkindr\_ros/tree/master/minkindr\_conversions)package in the [minkindr\_ros](https://github.com/ethz-asl/minkindr\_ros) repo. This also wraps some of the Eigen/TF conversions for common datatypes (`Eigen::Quaterniond`, `Eigen::Vector3d`), so it is a viable alternative to {tf,eigen}\_conversions in most cases. It also transforms minkindr Transformations back and forth to both messages and TF.
 
 * [Code Documentation - Message](https://github.com/ethz-asl/minkindr\_ros/blob/master/minkindr\_conversions/include/minkindr\_conversions/kindr\_msg.h)
 * [Code Documentation - TF](https://github.com/ethz-asl/minkindr\_ros/blob/master/minkindr\_conversions/include/minkindr\_conversions/kindr\_tf.h)

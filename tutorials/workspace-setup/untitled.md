@@ -124,7 +124,7 @@ Download it here:
 
 Sublime Text is a proprietary cross-platform source code editor with a Python application programming interface. To install, follow this page:
 
-{% embed url="https://www.sublimetext.com/docs/3/linux:repositories.html" %}
+{% embed url="https://www.sublimetext.com/docs/linux_repositories.html" %}
 
 **How To Install The Latest Version of Eclipse on Ubuntu**
 

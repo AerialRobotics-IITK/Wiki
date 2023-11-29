@@ -317,7 +317,7 @@ ENDIF(WIN32)
 &#x20;\
 CMake also contains a feature to automatically find libraries (based on a number of suggested locations) using the command . However, this feature works best on macOS and Linux.
 
-[https://cmake.org/Wiki/CMake:How\_To\_Find\_Libraries](https://cmake.org/Wiki/CMake:How\_To\_Find\_Libraries).
+{% embed url="https://gitlab.kitware.com/cmake/community/-/wikis/doc/tutorials/How-To-Find-Libraries" %}
 
 ## C++ version
 

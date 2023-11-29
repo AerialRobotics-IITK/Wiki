@@ -59,4 +59,4 @@ make px4fmu-v2_default upload
 
 For a more detailed and extensive build, check this:
 
-{% embed url="https://dev.px4.io/en/setup/building:px4.html" %}
+{% embed url="https://docs.px4.io/main/en/dev_setup/building_px4.html" %}
