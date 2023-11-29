@@ -22,8 +22,8 @@ Here are the articles in this book:
 [estimation](estimation/)
 {% endcontent-ref %}
 
-{% content-ref url="computer-vision.md" %}
-[computer-vision.md](computer-vision.md)
+{% content-ref url="computer-vision/" %}
+[computer-vision](computer-vision/)
 {% endcontent-ref %}
 
 {% content-ref url="machine-learning/" %}

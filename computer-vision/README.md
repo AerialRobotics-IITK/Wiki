@@ -1,7 +1,11 @@
+---
+description: A brief overview of hardware and various algorithms employed.
+---
+
 # Computer Vision
 
 {% hint style="info" %}
-Keep checking for updates!
+
 {% endhint %}
 
 Here are the articles in this section:

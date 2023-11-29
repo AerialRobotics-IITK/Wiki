@@ -1,14 +1,10 @@
----
-description: How to calibrate the camera.
----
-
 # Camera Calibration
 
 The standard camera model used in OpenCV and ROS is referred to as the Pinhole model. You can read more about it here:
 
 {% embed url="https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html" %}
 
-[ ](https://gajena.gitbook.io/aerial-robotics/camera\_calibration)The camera can be calibrated by one of the three following ways:
+The camera can be calibrated by one of the three following ways:
 
 ### 1.Kalibr
 
