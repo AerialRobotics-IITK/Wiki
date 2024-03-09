@@ -42,6 +42,6 @@ Here are the articles in this book:
 [competitions](competitions/)
 {% endcontent-ref %}
 
-{% content-ref url="setting-up-offboard-mission/" %}
-[setting-up-offboard-mission](setting-up-offboard-mission/)
+{% content-ref url="hardware-integration/setting-up-offboard-mission/" %}
+[setting-up-offboard-mission](hardware-integration/setting-up-offboard-mission/)
 {% endcontent-ref %}
