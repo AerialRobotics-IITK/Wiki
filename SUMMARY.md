@@ -90,6 +90,7 @@
   * [Setting up Offboard Mission](hardware-integration/setting-up-offboard-mission/README.md)
     * [Setting up Companion Computer](hardware-integration/setting-up-offboard-mission/setting-up-companion-computer/README.md)
       * [Raspberry Pi 4B Setup](hardware-integration/setting-up-offboard-mission/setting-up-companion-computer/raspberry-pi-4b-setup.md)
+      * [Jetson TX2 Setup](hardware-integration/setting-up-offboard-mission/setting-up-companion-computer/jetson-tx2-setup.md)
     * [Communication Setup](hardware-integration/setting-up-offboard-mission/communication-setup.md)
     * [Guided mode](hardware-integration/setting-up-offboard-mission/offboard-mode.md)
   * [Miscellaneous](hardware-integration/miscellaneous.md)
