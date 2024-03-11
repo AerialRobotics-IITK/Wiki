@@ -39,7 +39,7 @@ This guide demonstrates how to flash Jetson TX2 using Docker on Ubuntu 22.04. Do
     *   Once the installation and flashing are complete, commit the container as a new image:
 
         ```bash
-        docker commit JetPack_TX2_Devkit jetpack_tx2_devkit:5.1.2_flash
+        docker commit JetPack_TX2_Devkit jetpack_tx2_devkit:flash
         ```
     *   Remove the original container:
 
@@ -49,10 +49,10 @@ This guide demonstrates how to flash Jetson TX2 using Docker on Ubuntu 22.04. Do
     *   Run the flash operation directly from the created image:
 
         ```bash
-        docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb/ jetpack_tx2_devkit:5.1.2_flash
+        docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb/ jetpack_tx2_devkit:flash
         ```
 
-    \
+    PS: You can use the 1st command again without the --name tag\
 
 5.  **Follow On-screen Instructions**
 
