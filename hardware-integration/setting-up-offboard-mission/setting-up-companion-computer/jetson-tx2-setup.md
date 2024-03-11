@@ -74,8 +74,6 @@ This guide demonstrates how to flash Jetson TX2 using Docker on Ubuntu 22.04. Do
 
 With this Docker-based approach, flashing your Jetson TX2 becomes a seamless process, eliminating the hassle of managing dependencies and configurations.
 
-Certainly! Below is a README file outlining the known issues and necessary steps to address them when installing JetPack SDK and DRIVE SDK using the SDK Manager Docker image:
-
 ***
 
 ## Known Issues and Workarounds for SDK Manager Docker Image
