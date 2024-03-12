@@ -94,7 +94,7 @@ sudo apt-get install qemu-user-static binfmt-support
 sudo update-binfmts --enable
 ```
 
-### DRIVE SDK Installation
+**DRIVE SDK Installation**
 
 #### Issue:
 
@@ -124,7 +124,7 @@ Also subsequently on the jetson try running the following commands
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### Additional Notes:
+**Additional Notes:**
 
 * These known issues and workarounds are provided to assist with a smoother installation process.
 * Ensure to follow the instructions carefully to avoid encountering the mentioned issues.
