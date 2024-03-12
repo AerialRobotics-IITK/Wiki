@@ -34,7 +34,7 @@ Steps to unallocate space on windows
 
 Install Rufus, and upon starting the application should look like:
 
-<img src="../../.gitbook/assets/image (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
 
 Insert the external flash drive, Rufus would automatically detect it as _Device._\
 Under _Boot Selection_ choose the ISO file downloaded above.\
@@ -48,7 +48,7 @@ Reboot your system, and while it turns on, before your laptop's brand's icon sho
 
 Repeatedly press the key (Keys to be pressed vary a lot, usually it is`F2`, confirm from ) until the BIOS Menu shows up, something like this:
 
-<img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="original">
 
 Turn off `UEFI Secure Boot` and `Legacy Boot` (if available) settings.\
 Now in the _Boot Device Select Menu_ change the `Boot Order` to USB first.\

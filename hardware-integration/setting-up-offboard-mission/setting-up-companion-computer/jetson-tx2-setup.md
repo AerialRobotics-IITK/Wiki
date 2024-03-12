@@ -52,8 +52,7 @@ This guide demonstrates how to flash Jetson TX2 using Docker on Ubuntu 22.04. Do
         docker run -it --rm --privileged -v /dev/bus/usb:/dev/bus/usb/ jetpack_tx2_devkit:flash
         ```
 
-    PS: You can use the 1st command again without the --name tag\
-
+    PS: You can use the 1st command again without the --name tag&#x20;
 5.  **Follow On-screen Instructions**
 
     * Choose the packages to be installed.
@@ -108,6 +107,22 @@ Before flashing the target, make sure to stop ADB using the following command on
 ```bash
 sudo killall adb
 ```
+
+#### Issue:
+
+Many Packages don't get downloaded. Example: "error: Download 'NVIDIA Container Runtime with Docker integration (Beta)' failure"
+
+#### Workaround:
+
+Go to Software and updates and tick on links having Nvidia.
+
+Also subsequently on the jetson try running the following commands
+
+<pre class="language-bash"><code class="lang-bash">sudo apt update
+<strong>sudo apt install nvidia-jetpack
+</strong></code></pre>
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Additional Notes:
 
