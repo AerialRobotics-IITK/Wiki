@@ -58,12 +58,12 @@ This guide demonstrates how to flash Jetson TX2 using Docker on Ubuntu 22.04. Do
     * Choose the packages to be installed.
     * Ignore any low memory warnings and proceed.
 
-    <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
     * Select either automatic or manual mode.
     * Choose automatic mode, follow the on-screen instructions to complete the flashing process.
 
-    <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 6. **Completion**
    * Once the flashing process is completed, your Jetson TX2 will be flashed and ready for use.
 
