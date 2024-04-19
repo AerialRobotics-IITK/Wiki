@@ -95,6 +95,7 @@
     * [Guided mode](hardware-integration/setting-up-offboard-mission/offboard-mode.md)
   * [Miscellaneous](hardware-integration/miscellaneous.md)
 * [Resources](resources/README.md)
+  * [Open-source algorithms and resources](resources/open-source-algorithms-and-resources.md)
   * [Courses](resources/courses/README.md)
     * [State Space Modelling of a Multirotor](http://www.indjst.org/index.php/indjst/article/viewFile/96613/71697)
     * [Path Planning Lecture](https://courses.edx.org/asset-v1:PennX+ROBO1x+1T2017+type@asset+block@Week\_9\_Graph\_Based\_Planning\_Method.pdf)
