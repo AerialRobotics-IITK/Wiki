@@ -77,7 +77,7 @@
   * [Setup with VICON](estimation/setup-with-vicon.md)
   * [Odometry from pose data](estimation/odometry-from-pose-data.md)
 * [Computer Vision](computer-vision/README.md)
-  * [IntelRealSense D455 Calibration](computer-vision/intelrealsense-d455-calibration.md)
+  * [IntelRealSense D435i Calibration](computer-vision/intelrealsense-d435i-calibration.md)
   * [Camera Calibration](computer-vision/camera-calibration.md)
   * [ArUco ROS](computer-vision/using-aruco\_ros.md)
 * [Machine Learning](machine-learning/README.md)

@@ -1,8 +1,8 @@
 ---
-description: Calibration of IntelRealSenseD455 using AprilGrid
+description: Calibration of IntelRealSenseD435i using AprilGrid
 ---
 
-# IntelRealSense D455 Calibration
+# IntelRealSense D435i Calibration
 
 ### Installing Kalibr
 
