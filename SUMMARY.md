@@ -77,6 +77,7 @@
   * [Setup with VICON](estimation/setup-with-vicon.md)
   * [Odometry from pose data](estimation/odometry-from-pose-data.md)
 * [Computer Vision](computer-vision/README.md)
+  * [Intel RealSense D435i setup for ROS Noetic](computer-vision/intel-realsense-d435i-setup-for-ros-noetic.md)
   * [IntelRealSense D435i Calibration](computer-vision/intelrealsense-d435i-calibration.md)
   * [Camera Calibration](computer-vision/camera-calibration.md)
   * [ArUco ROS](computer-vision/using-aruco\_ros.md)
